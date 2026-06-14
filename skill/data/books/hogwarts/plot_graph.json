@@ -681,41 +681,45 @@
         "hermine"
       ],
       "location": "Große Halle, Hogwarts",
-      "summary": "Professor McGonagall ruft die Erstklässler nach vorn. Der alte Sprechende Hut wird dir aufgesetzt und murmelt in dein Ohr — und nach einem kurzen Moment ruft er laut und stolz in die Halle: „GRYFFINDOR!“ Der Tisch mit den rot-goldenen Bannern jubelt, Lily klatscht, und du läufst strahlend zu Harry und Ron hinüber.",
+      "summary": "Professor McGonagall ruft dich nach vorn. Der alte Sprechende Hut wird dir aufgesetzt, wägt deine Eigenschaften ab — und hört dabei auch auf das, was du dir im Herzen wünschst. Wohin soll es gehen? (Egal welches Haus du wählst: Echte Freundschaften — auch mit Harry, Ron und Hermine — sind über alle Hausgrenzen hinweg möglich.)",
       "plot_type": "wendepunkt",
       "challenge_potential": 3,
       "crossing_point": false,
       "choices": [
         {
-          "description": "Voller Stolz zum jubelnden Gryffindor-Tisch laufen",
+          "description": "Der Hut ruft „GRYFFINDOR!“ — Heimat der Mutigen",
           "canon": true,
+          "house": "Gryffindor",
           "stat_effects": {
-            "reputation": 10,
-            "combat": 5
-          },
-          "relationship_effects": {
-            "Harry": 5,
-            "Ron": 5,
-            "Lily": 3
+            "combat": 6,
+            "reputation": 4
           }
         },
         {
-          "description": "Dem Hut danken und dich zu deinen Freunden setzen",
+          "description": "Der Hut ruft „RAVENCLAW!“ — Heimat der Klugen und Neugierigen",
           "canon": true,
+          "house": "Ravenclaw",
           "stat_effects": {
-            "loyalty": 8
-          },
-          "relationship_effects": {
-            "Lily": 5,
-            "Ron": 3
+            "wisdom": 8,
+            "reputation": 3
           }
         },
         {
-          "description": "Tief durchatmen — geschafft! — und mutig wie ein Löwe Platz nehmen",
+          "description": "Der Hut ruft „HUFFLEPUFF!“ — Heimat der Treuen und Gerechten",
           "canon": true,
+          "house": "Hufflepuff",
           "stat_effects": {
-            "combat": 8,
-            "reputation": 5
+            "loyalty": 8,
+            "reputation": 3
+          }
+        },
+        {
+          "description": "Der Hut ruft „SLYTHERIN!“ — Heimat der Ehrgeizigen und Cleveren",
+          "canon": true,
+          "house": "Slytherin",
+          "stat_effects": {
+            "reputation": 6,
+            "wisdom": 4
           }
         }
       ],
@@ -737,7 +741,7 @@
         "hermine"
       ],
       "location": "Große Halle",
-      "summary": "Kaum sitzt du am Gryffindor-Tisch, füllen sich die goldenen Platten wie von Zauberhand: Braten, Kartoffeln, Kürbissaft, und zum Nachtisch Berge von Pudding. Über euch schweben Kerzen und die Sternendecke. Lily stupst dich an: „Iss dich satt — morgen geht der Ernst los, heut nicht.“ Ein paar Tische weiter lacht jemand.",
+      "summary": "Kaum sitzt du an deinem Haustisch, füllen sich die goldenen Platten wie von Zauberhand: Braten, Kartoffeln, Kürbissaft, und zum Nachtisch Berge von Pudding. Über euch schweben Kerzen und die Sternendecke. Lily stupst dich an: „Iss dich satt — morgen geht der Ernst los, heut nicht.“ Ein paar Tische weiter lacht jemand.",
       "plot_type": "schule",
       "challenge_potential": 2,
       "crossing_point": false,
@@ -776,7 +780,7 @@
       "id": "y1_s04b",
       "chapter": 2,
       "scene_index": 2,
-      "title": "Erste Nacht im Gryffindor-Turm",
+      "title": "Erste Nacht im Gemeinschaftsraum",
       "school_time": "1. September — spät, Gryffindor-Turm",
       "characters_present": [
         "player_heroine",
@@ -1550,7 +1554,7 @@
       "challenge_potential": 3,
       "crossing_point": true,
       "clique_bond_delta": 1,
-      "autonomous_recap": "Beim Quidditch tobte die Gryffindor-Kurve. Du hast das Spiel verpasst.",
+      "autonomous_recap": "Beim Quidditch tobte die den Rängen. Du hast das Spiel verpasst.",
       "choices": [
         {
           "description": "Voll dabei sein und mitmachen",
@@ -2631,7 +2635,7 @@
       "challenge_potential": 3,
       "crossing_point": true,
       "clique_bond_delta": 1,
-      "autonomous_recap": "Beim Quidditch tobte die Gryffindor-Kurve. Du hast das Spiel verpasst.",
+      "autonomous_recap": "Beim Quidditch tobte die den Rängen. Du hast das Spiel verpasst.",
       "choices": [
         {
           "description": "Voll dabei sein und mitmachen",
@@ -3471,7 +3475,7 @@
       "challenge_potential": 3,
       "crossing_point": true,
       "clique_bond_delta": 1,
-      "autonomous_recap": "Beim Quidditch tobte die Gryffindor-Kurve. Du hast das Spiel verpasst.",
+      "autonomous_recap": "Beim Quidditch tobte die den Rängen. Du hast das Spiel verpasst.",
       "choices": [
         {
           "description": "Voll dabei sein und mitmachen",
@@ -4246,7 +4250,7 @@
       "challenge_potential": 3,
       "crossing_point": true,
       "clique_bond_delta": 1,
-      "autonomous_recap": "Beim Quidditch tobte die Gryffindor-Kurve. Du hast das Spiel verpasst.",
+      "autonomous_recap": "Beim Quidditch tobte die den Rängen. Du hast das Spiel verpasst.",
       "choices": [
         {
           "description": "Voll dabei sein und mitmachen",
@@ -5213,7 +5217,7 @@
       "challenge_potential": 3,
       "crossing_point": true,
       "clique_bond_delta": 1,
-      "autonomous_recap": "Beim Quidditch tobte die Gryffindor-Kurve. Du hast das Spiel verpasst.",
+      "autonomous_recap": "Beim Quidditch tobte die den Rängen. Du hast das Spiel verpasst.",
       "choices": [
         {
           "description": "Voll dabei sein und mitmachen",
@@ -6137,7 +6141,7 @@
       "challenge_potential": 3,
       "crossing_point": true,
       "clique_bond_delta": 1,
-      "autonomous_recap": "Beim Quidditch tobte die Gryffindor-Kurve. Du hast das Spiel verpasst.",
+      "autonomous_recap": "Beim Quidditch tobte die den Rängen. Du hast das Spiel verpasst.",
       "choices": [
         {
           "description": "Voll dabei sein und mitmachen",
@@ -8111,7 +8115,7 @@
         "h019"
       ],
       "clique_bond_delta": 1,
-      "autonomous_recap": "Beim Spiel sorgte ein außer Kontrolle geratener Klatscher für Aufregung; die ganze Gryffindor-Kurve fieberte zusammen. Du hast das Spiel verpasst."
+      "autonomous_recap": "Beim Spiel sorgte ein außer Kontrolle geratener Klatscher für Aufregung; die ganze den Rängen fieberte zusammen. Du hast das Spiel verpasst."
     },
     {
       "id": "h019",

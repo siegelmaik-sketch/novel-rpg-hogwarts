@@ -74,9 +74,9 @@
     },
     {
       "id": "gryffindor_turm",
-      "name": "Gryffindor-Gemeinschaftsraum",
+      "name": "Gemeinschaftsraum (dein Haus)",
       "access": "immer",
-      "context": "Der gemütliche runde Turmraum mit Kaminfeuer, weichen Sesseln und der fetten Dame als Türwächterin. Ein sicherer Rückzugsort unter Mitschülern.",
+      "context": "Der gemütliche Gemeinschaftsraum deines Hauses mit Kaminfeuer und weichen Sesseln — ein sicherer Rückzugsort. Je nach Haus ist das der Gryffindor-Turm, der Ravenclaw-Turm, der Hufflepuff-Keller oder der Slytherin-Kerker. Freunde aus anderen Häusern trifft man an gemeinsamen Orten (Bibliothek, Innenhof, Ländereien, Raum der Wünsche).",
       "arc": "schule"
     },
     {

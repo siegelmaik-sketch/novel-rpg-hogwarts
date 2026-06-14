@@ -39,7 +39,11 @@ CLIQUE_THRESHOLD = 3       # informativer Bindungs-Schwellenwert (Anzeige)
 #   mindestens CLIQUE_CROSSINGS_MIN genutzte Kreuzungspunkte UND
 #   Beziehung zu JEDER Kern-Figur >= „Freund". Kein einzelner Schalter.
 CLIQUE_CROSSINGS_MIN = 2
-CORE_FRIENDS = ["Harry", "Ron", "Hermine"]
+CORE_FRIENDS = ["Harry", "Ron", "Hermine"]   # Freundeskreis ist HAUSÜBERGREIFEND
+
+# Frei wählbare Häuser (an der Hut-Zeremonie). Freundschaften/Clique sind
+# bewusst nicht an das Haus gebunden — man kann in jedem Haus Teil der Clique werden.
+HOUSES = ["Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"]
 
 # Beziehungs-Stufen, abgeleitet aus trust (0-100)
 REL_TIERS = [
@@ -239,12 +243,14 @@ def advance(save_id, scene_id, choice_index, choice_desc=""):
     is_canon = False
     stat_effects = {}
     relationship_effects = {}
+    chosen_house = None
     choices = scene.get("choices", []) if scene else []
     if choices and choice_index < len(choices):
         choice = choices[choice_index]
         is_canon = choice.get("canon", False)
         stat_effects = choice.get("stat_effects", {})
         relationship_effects = choice.get("relationship_effects", {})
+        chosen_house = choice.get("house")   # z. B. bei der Hut-Zeremonie
         if not choice_desc:
             choice_desc = choice.get("description", "")
 
@@ -280,6 +286,12 @@ def advance(save_id, scene_id, choice_index, choice_desc=""):
                 "status": tier_for_trust(trust),
                 "note": "neu kennengelernt",
             }
+
+    # ── HAUS (Hut-Zeremonie) ──────────────────────────────────────────────────
+    # Trägt die gewählte Wahl ein `house`-Feld (z. B. an der Einsortierung), wird
+    # das Haus jetzt ECHT im Spielstand gesetzt — frei wählbar aus allen vier Häusern.
+    if chosen_house:
+        save["house"] = chosen_house
 
     # ── KREUZUNGSPUNKT ────────────────────────────────────────────────────────
     # Dockt die Spielerin an (docks), wächst die Bindung und die Kreuzung gilt als
@@ -431,6 +443,22 @@ def move(save_id, location):
     print(f"  (Sandkasten — divergenz-neutral; nächster Beat: {save['current_scene']})")
 
 
+def set_house(save_id, house):
+    """Setzt das Haus der Spielerin (frei aus den vier Häusern wählbar).
+
+    Wird von der Hut-Zeremonie automatisch über das `house`-Feld der Wahl gesetzt;
+    dieser Befehl erlaubt es zusätzlich, das Haus direkt zu wählen/korrigieren.
+    """
+    save = load_save(save_id)
+    match = next((h for h in HOUSES if h.lower() == (house or "").lower()), None)
+    if not match:
+        print(f"✗ '{house}' ist kein gültiges Haus. Wähle: {', '.join(HOUSES)}")
+        sys.exit(2)
+    save["house"] = match
+    write_save(save_id, save)
+    print(f"✓ Haus gesetzt: {match}")
+
+
 def list_saves():
     """Listet alle Spielstände."""
     ensure_dirs()
@@ -500,6 +528,11 @@ if __name__ == "__main__":
             print("Aufruf: game_engine.py move <save-id> <ort>")
             sys.exit(1)
         move(sys.argv[2], sys.argv[3])
+    elif cmd == "set-house":
+        if len(sys.argv) < 4:
+            print("Aufruf: game_engine.py set-house <save-id> <Gryffindor|Ravenclaw|Hufflepuff|Slytherin>")
+            sys.exit(1)
+        set_house(sys.argv[2], sys.argv[3])
     elif cmd == "load":
         if len(sys.argv) < 3:
             print("Aufruf: game_engine.py load <save-id>")

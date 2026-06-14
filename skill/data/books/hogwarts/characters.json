@@ -126,7 +126,8 @@
       },
       "arc_summary": "Ein muggelstämmiges Mädchen von zu Hause, das die Zauberwelt entdeckt und in Hogwarts echte Freunde findet.",
       "first_appearance_chapter": 0,
-      "house": "Gryffindor"
+      "house": null,
+      "house_note": "Das Haus wird an der Hut-Zeremonie (y1_s04) frei gewählt — alle vier Häuser möglich."
     },
     {
       "id": "lily",

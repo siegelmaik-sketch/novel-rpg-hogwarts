@@ -9,6 +9,8 @@ Eine **story-getriebene Hogwarts-Variante** der Novel-RPG-Engine, ausgelegt fuer
 (Vorgabe „Robin", frei umbenennbar) und erlebt — beginnend mit einem eigenen Prolog —
 **sieben komplette Schuljahre** als durchgehende Geschichte: Freundschaften wachsen,
 der Kanon ist der rote Faden, und **Freiheit lebt in den Luecken** zwischen den Beats.
+Das **Haus ist frei waehlbar** (alle vier, an der Hut-Zeremonie) — Freundschaften und der
+„Freundeskreis"/Clique-Mechanismus funktionieren **hausuebergreifend**.
 
 > **Disclaimer:** Nicht-kommerzielles **Fan-Projekt** zu privaten/Bildungszwecken.
 > „Harry Potter" und die Hogwarts-Welt sind © J. K. Rowling / Warner Bros.; dieses

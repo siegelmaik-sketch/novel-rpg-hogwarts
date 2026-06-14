@@ -183,6 +183,25 @@ die Beziehung zu Harry, Ron und Hermine **je „Freund"** ist (die Engine berech
 über `recompute_clique` — kein einzelner Schalter). Beziehe den Beziehungs-Status
 (Fremde → Bekannt → Freund) jeder Hauptfigur in deren Reaktion ein.
 
+### 5a. Haus (FREI WÄHLBAR — alle vier Häuser)
+Bei der **Hut-Zeremonie (`y1_s04`)** wählt die Spielerin ihr Haus **frei** aus allen
+vier Häusern. Die Engine merkt sich die Wahl automatisch (die Wahl trägt ein
+`house`-Feld). Du kannst es auch direkt setzen/korrigieren:
+```bash
+python3 {baseDir}/scripts/game_engine.py set-house <save-id> <Gryffindor|Ravenclaw|Hufflepuff|Slytherin>
+```
+- **Lies das Haus** bei jedem Zug aus `load <save>` (Feld „Haus") und erzähle
+  **haus-sensibel**: ihr Gemeinschaftsraum, ihr Schlafsaal, ihr Haustisch und ihre
+  Hausfarben richten sich nach **ihrem** Haus.
+- **WICHTIG — Freundschaften sind HAUSÜBERGREIFEND:** Sie kann mit Harry, Ron, Hermine
+  (Gryffindor) und allen anderen befreundet sein, **egal in welchem Haus sie selbst ist**.
+  „Teil der Clique" funktioniert in jedem Haus. Freunde aus anderen Häusern trifft man an
+  **gemeinsamen Orten** (Große Halle, Bibliothek, Innenhof, Ländereien, Raum der Wünsche/DA).
+  Nennt eine Szene „den Gemeinschaftsraum", während hausfremde Freunde dabei sind, verlege
+  das Treffen sinngemäß an so einen gemeinsamen Ort.
+- **Slytherin kindgerecht-positiv** darstellen (ehrgeizig, clever, loyal zu den Seinen) —
+  niemals „böse". Jedes Haus ist eine gute Wahl.
+
 ### 5b. MODERATION (Pflicht — vor JEDER Anzeige)
 Bevor du eine erzählte Szene der Spielerin zeigst, prüfe sie:
 ```bash
