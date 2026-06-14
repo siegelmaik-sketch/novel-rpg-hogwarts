@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+# Laufzeitdaten (Spielstände, Erinnerungen, Moderations-Log) nicht versionieren
+skill/data/saves/
+skill/data/memory/
+skill/data/moderation_log/
+.pytest_cache/

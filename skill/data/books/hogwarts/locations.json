@@ -1,0 +1,160 @@
+{
+  "_doc": "Orts-Whitelist für die Sandkasten-Bewegung. NUR diese Schauplätze sind erlaubt — die Engine lehnt alles andere ab (Leitplanke ist die Welt). Jeder Ort liefert einen kindgerechten Kontext, den der GM beim freien Erzählen verwendet. 'access' steuert grobe Verfügbarkeit (immer/tagsueber). 'arc' kennzeichnet Prolog- vs. Schul-Orte.",
+  "setting": "Internat für junge Hexen und Zauberer (Schloss Hogwarts), Kinderbuch-Ton, freundlich und sicher",
+  "locations": [
+    {
+      "id": "haus_sosa",
+      "name": "Haus deiner Familie",
+      "arc": "prolog",
+      "access": "immer",
+      "context": "Robins Zuhause in einem kleinen Dorf: warme Küche, Blick auf den Wald, Mama und Papa in der Nähe. Der sichere Hafen, an den sie in Gedanken zurückkehrt."
+    },
+    {
+      "id": "sosaer_strasse",
+      "name": "Dorfstraße",
+      "arc": "prolog",
+      "access": "immer",
+      "context": "Die ruhige Dorfstraße vor dem Haus, wo der knallrote Fahrende Doppeldecker mit einem Knall auftaucht. Ort des Abschieds."
+    },
+    {
+      "id": "doppeldecker",
+      "name": "Fahrender Doppeldecker (Oberdeck)",
+      "arc": "prolog",
+      "access": "immer",
+      "context": "Das Oberdeck des magischen Busses, der in halsbrecherischen Sätzen durch die Nacht springt. Schaffner Barnabas erzählt von der Zauberwelt — aufregend, nie bedrohlich."
+    },
+    {
+      "id": "winkelgasse",
+      "name": "Winkelgasse",
+      "arc": "prolog",
+      "access": "tagsueber",
+      "context": "Die quirlige Zaubererstraße voller Lärm, Farben und schwebender Schilder. Mit Lily an der Seite ein Ort zum Staunen und Entdecken."
+    },
+    {
+      "id": "ollivanders",
+      "name": "Ollivanders Zauberstabladen",
+      "arc": "prolog",
+      "access": "tagsueber",
+      "context": "Ein staubiger Laden voller schmaler Schachteln. Hier sucht der Zauberstab die Hexe aus, nicht umgekehrt."
+    },
+    {
+      "id": "madam_malkins",
+      "name": "Madam Malkins Umhänge",
+      "arc": "prolog",
+      "access": "tagsueber",
+      "context": "Ein freundliches Schneidergeschäft, in dem die Schulumhänge angepasst werden."
+    },
+    {
+      "id": "flourish_blotts",
+      "name": "Flourish & Blotts",
+      "arc": "prolog",
+      "access": "tagsueber",
+      "context": "Die Buchhandlung mit Regalen bis zur Decke und Büchern, deren Bilder sich bewegen."
+    },
+    {
+      "id": "tierhandlung",
+      "name": "Zur Magischen Schnauze",
+      "arc": "prolog",
+      "access": "tagsueber",
+      "context": "Die Tierhandlung in der Winkelgasse, voller Eulen, Katzen und Kröten — und einem kleinen weißen Malteser namens Flocke."
+    },
+    {
+      "id": "gleis_neun_dreiviertel",
+      "name": "King's Cross, Gleis 9¾",
+      "arc": "prolog",
+      "access": "tagsueber",
+      "context": "Der verborgene Bahnsteig hinter der festen Mauer, wo der scharlachrote Hogwarts-Express dampft. Hier endet der Prolog und die Schulzeit beginnt."
+    },
+    {
+      "id": "grosse_halle",
+      "name": "Große Halle",
+      "access": "tagsueber",
+      "context": "Die riesige Halle mit den vier langen Haustischen und der verzauberten Sternendecke. Hier wird gegessen, geredet und gelacht. Es ist immer jemand da.",
+      "arc": "schule"
+    },
+    {
+      "id": "gryffindor_turm",
+      "name": "Gryffindor-Gemeinschaftsraum",
+      "access": "immer",
+      "context": "Der gemütliche runde Turmraum mit Kaminfeuer, weichen Sesseln und der fetten Dame als Türwächterin. Ein sicherer Rückzugsort unter Mitschülern.",
+      "arc": "schule"
+    },
+    {
+      "id": "bibliothek",
+      "name": "Bibliothek",
+      "access": "tagsueber",
+      "context": "Hohe Regale voller Zauberbücher, Madam Pince wacht über die Stille. Perfekt zum Nachschlagen, Lernen oder für Begegnungen mit fleißigen Mitschülern wie Hermine.",
+      "arc": "schule"
+    },
+    {
+      "id": "innenhof",
+      "name": "Innenhof",
+      "access": "tagsueber",
+      "context": "Ein steinerner Innenhof mit Arkaden, wo sich Schüler in den Pausen treffen. Tauben, Geplapper, manchmal ein kleines Zauber-Missgeschick.",
+      "arc": "schule"
+    },
+    {
+      "id": "ländereien_see",
+      "name": "Ländereien am See",
+      "access": "tagsueber",
+      "context": "Die weite Wiese hinunter zum großen schwarzen See mit dem Riesenkraken, der harmlos seine Tentakel hebt. Frische Luft, Platz zum Toben.",
+      "arc": "schule"
+    },
+    {
+      "id": "hagrids_huette",
+      "name": "Hagrids Hütte",
+      "access": "tagsueber",
+      "context": "Die kleine Holzhütte am Waldrand, wo es nach Kakao und Hundefell riecht. Hagrid ist herzlich und erzählt gern von magischen Tieren — und passt gut auf.",
+      "arc": "schule"
+    },
+    {
+      "id": "gewaechshaeuser",
+      "name": "Gewächshäuser",
+      "access": "tagsueber",
+      "context": "Glasige Gewächshäuser voller zappelnder, summender Zauberpflanzen. Hier unterrichtet Professor Sprout Kräuterkunde — Erde unter den Fingernägeln inklusive.",
+      "arc": "schule"
+    },
+    {
+      "id": "treppenhaus",
+      "name": "Bewegliche Treppen",
+      "access": "immer",
+      "context": "Das große Treppenhaus, dessen Treppen sich gern verschieben, und die Porträts an den Wänden, die miteinander tratschen. Ein bisschen Verirren gehört dazu.",
+      "arc": "schule"
+    },
+    {
+      "id": "eulerei",
+      "name": "Eulerei",
+      "access": "immer",
+      "context": "Der zugige Turm voller Schuleulen, die Post in alle Welt tragen. Hier kann man einen Brief nach Hause schicken oder eine Lieblingseule besuchen.",
+      "arc": "schule"
+    },
+    {
+      "id": "klassenzimmer",
+      "name": "Klassenzimmer",
+      "access": "tagsueber",
+      "context": "Die verschiedenen Unterrichtsräume (Verwandlung, Zauberkunst, Zaubertränke). Lehrer und Mitschüler sind in der Nähe — Lernen, Üben, kleine Erfolge.",
+      "arc": "schule"
+    },
+    {
+      "id": "verwunschenes_klo",
+      "name": "Myrtes Waschraum",
+      "arc": "jahr2",
+      "access": "tagsueber",
+      "context": "Ein selten benutzter Mädchen-Waschraum im zweiten Stock, in dem das gutmütige Gespenst Myrte wohnt. Tropfende Hähne, Hall — geheimnisvoll, aber harmlos."
+    },
+    {
+      "id": "duellierclub",
+      "name": "Der Duellierclub",
+      "arc": "jahr2",
+      "access": "tagsueber",
+      "context": "Eine lange Bühne in der Großen Halle, auf der Schüler üben, Zauber höflich abzuwehren — mehr Show als Gefahr."
+    },
+    {
+      "id": "kammer_eingang",
+      "name": "Eingang zur Kammer",
+      "arc": "jahr2",
+      "access": "tagsueber",
+      "context": "Ein verborgener Zugang tief unter der Schule. Geheimnisvoll und ehrfurchtgebietend — aber die Lehrer wissen Bescheid und passen auf."
+    }
+  ]
+}

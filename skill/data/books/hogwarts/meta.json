@@ -1,0 +1,844 @@
+{
+  "id": "hogwarts",
+  "title": "Hogwarts — Robins Jahre 1 & 2",
+  "author": "handkuratiertes Abenteuer (im Geiste von J. K. Rowlings 'Stein der Weisen')",
+  "language": "de",
+  "age_rating": "ab 7 — kindgerecht",
+  "total_chapters": 13,
+  "note": "Handkuratierte Metadaten + Modellwissen. KEIN importierter Buchtext.",
+  "player_character": "player_heroine",
+  "playable_characters": [
+    "player_heroine"
+  ],
+  "side_characters": [
+    "lily",
+    "flocke",
+    "marlen",
+    "maik",
+    "barnabas",
+    "harry",
+    "ron",
+    "hermine",
+    "hagrid",
+    "dumbledore",
+    "mcgonagall",
+    "snape",
+    "malfoy",
+    "neville"
+  ],
+  "arcs": [
+    {
+      "name": "Prolog: Robins Reise",
+      "chapters": [
+        0
+      ],
+      "description": "Der Brief, der Abschied, die Winkelgasse, Lily und Flocke, der Übergang nach Gleis 9¾"
+    },
+    {
+      "name": "Ankunft in Hogwarts",
+      "chapters": [
+        1
+      ],
+      "description": "Gleis 9¾, der Hogwarts-Express, die Boote über den See"
+    },
+    {
+      "name": "Die ersten Wochen",
+      "chapters": [
+        2,
+        3
+      ],
+      "description": "Hut-Zeremonie, erster Unterricht, die erste Flugstunde"
+    },
+    {
+      "name": "Halloween",
+      "chapters": [
+        4
+      ],
+      "description": "Der Troll im Schloss — und wie aus Mitschülern Freunde werden"
+    },
+    {
+      "name": "Winter",
+      "chapters": [
+        5
+      ],
+      "description": "Das große Quidditch-Spiel und der geheimnisvolle Spiegel Nerhed"
+    },
+    {
+      "name": "Frühjahr & Finale",
+      "chapters": [
+        6
+      ],
+      "description": "Ein Abend bei Hagrid, der Schutz des Steins, das Schuljahresende"
+    }
+  ],
+  "chapters": [
+    {
+      "number": 0,
+      "title": "Prolog: Robins Reise",
+      "scene_count": 7,
+      "key_characters": [
+        "player_heroine",
+        "lily",
+        "marlen",
+        "maik",
+        "barnabas",
+        "flocke"
+      ],
+      "summary": "Von deinem Heimatort über den Fahrenden Doppeldecker und die Winkelgasse (mit Lily und Flocke) bis Gleis 9¾ — der Einstieg, der an den Kanon übergibt."
+    },
+    {
+      "number": 1,
+      "title": "Ankunft in Hogwarts",
+      "scene_count": 7,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "ron",
+        "hagrid"
+      ],
+      "summary": "Die ganze Anreise: Gleis 9¾, der Hogwarts-Express mit Lily, der Süßigkeitenwagen, die Begegnung mit Harry und Ron, das Schloss am Horizont, Hogsmeade, die Boote über den See und die Eingangshalle."
+    },
+    {
+      "number": 2,
+      "title": "Eingeschult",
+      "scene_count": 22,
+      "key_characters": [
+        "player_heroine",
+        "mcgonagall",
+        "snape"
+      ],
+      "summary": "Der Sprechende Hut weist die Häuser zu, der erste Unterricht im Kerker beginnt."
+    },
+    {
+      "number": 3,
+      "title": "Die erste Flugstunde",
+      "scene_count": 31,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "neville",
+        "malfoy"
+      ],
+      "summary": "Auf alten Besen üben die Erstklässler das Schweben — und ein Streit um Nevilles Erinnermich."
+    },
+    {
+      "number": 4,
+      "title": "Halloween",
+      "scene_count": 1,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "ron",
+        "hermine"
+      ],
+      "summary": "Ein Troll im Schloss — der Abend, an dem echte Freundschaft entsteht."
+    },
+    {
+      "number": 5,
+      "title": "Winter in Hogwarts",
+      "scene_count": 36,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "hermine",
+        "dumbledore"
+      ],
+      "summary": "Das erste Quidditch-Spiel und der Spiegel, der Herzenswünsche zeigt."
+    },
+    {
+      "number": 6,
+      "title": "Frühjahr & Finale",
+      "scene_count": 38,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "ron",
+        "hermine",
+        "hagrid",
+        "dumbledore"
+      ],
+      "summary": "Ein Abend bei Hagrid, der Schutz des Steins der Weisen und das festliche Schuljahresende."
+    },
+    {
+      "number": 7,
+      "title": "Jahr 2 — Sommer & Rückkehr",
+      "scene_count": 3,
+      "key_characters": [
+        "player_heroine",
+        "lily",
+        "harry",
+        "ron",
+        "hermine",
+        "ginny"
+      ],
+      "summary": "Jahr 2 — Sommer & Rückkehr"
+    },
+    {
+      "number": 8,
+      "title": "Jahr 2 — Neues Schuljahr",
+      "scene_count": 41,
+      "key_characters": [
+        "player_heroine",
+        "lily",
+        "harry",
+        "ron",
+        "hermine",
+        "ginny"
+      ],
+      "summary": "Jahr 2 — Neues Schuljahr"
+    },
+    {
+      "number": 9,
+      "title": "Jahr 2 — Das Geheimnis beginnt",
+      "scene_count": 23,
+      "key_characters": [
+        "player_heroine",
+        "lily",
+        "harry",
+        "ron",
+        "hermine",
+        "ginny"
+      ],
+      "summary": "Jahr 2 — Das Geheimnis beginnt"
+    },
+    {
+      "number": 10,
+      "title": "Jahr 2 — Spurensuche",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "lily",
+        "harry",
+        "ron",
+        "hermine",
+        "ginny"
+      ],
+      "summary": "Jahr 2 — Spurensuche"
+    },
+    {
+      "number": 11,
+      "title": "Jahr 2 — Es wird ernst",
+      "scene_count": 15,
+      "key_characters": [
+        "player_heroine",
+        "lily",
+        "harry",
+        "ron",
+        "hermine",
+        "ginny"
+      ],
+      "summary": "Jahr 2 — Es wird ernst"
+    },
+    {
+      "number": 12,
+      "title": "Jahr 2 — Finale & Schuljahresende",
+      "scene_count": 14,
+      "key_characters": [
+        "player_heroine",
+        "lily",
+        "harry",
+        "ron",
+        "hermine",
+        "ginny"
+      ],
+      "summary": "Jahr 2 — Finale & Schuljahresende"
+    }
+  ],
+  "crossing_points": [
+    {
+      "scene": "y1_s02",
+      "beat": "Im Hogwarts-Express",
+      "bond": 1
+    },
+    {
+      "scene": "g002",
+      "beat": "Abend mit der Gang (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g004",
+      "beat": "Lernen mit Hermine (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g006",
+      "beat": "Zauberschach mit Ron (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g008",
+      "beat": "Mit Harry am See (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g010",
+      "beat": "Streifzug mit Lily (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g012",
+      "beat": "Neville beistehen (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g014",
+      "beat": "Kakao bei Hagrid (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g016",
+      "beat": "Quidditch anfeuern (September)",
+      "bond": 1
+    },
+    {
+      "scene": "y1_s05b",
+      "beat": "Zauberkunst: Wingardium Leviosa",
+      "bond": 1
+    },
+    {
+      "scene": "g018",
+      "beat": "Abend mit der Gang (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g020",
+      "beat": "Lernen mit Hermine (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g022",
+      "beat": "Zauberschach mit Ron (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g024",
+      "beat": "Mit Harry am See (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g026",
+      "beat": "Streifzug mit Lily (September)",
+      "bond": 1
+    },
+    {
+      "scene": "g028",
+      "beat": "Neville beistehen (September)",
+      "bond": 1
+    },
+    {
+      "scene": "y1_s06",
+      "beat": "Die erste Flugstunde",
+      "bond": 1
+    },
+    {
+      "scene": "y1_s06b",
+      "beat": "Abend im Gemeinschaftsraum",
+      "bond": 1
+    },
+    {
+      "scene": "g030",
+      "beat": "Kakao bei Hagrid (Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "g032",
+      "beat": "Quidditch anfeuern (Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "g034",
+      "beat": "Abend mit der Gang (Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "g036",
+      "beat": "Lernen mit Hermine (Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "g038",
+      "beat": "Zauberschach mit Ron (Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "g040",
+      "beat": "Mit Harry am See (Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "g042",
+      "beat": "Streifzug mit Lily (Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "g044",
+      "beat": "Neville beistehen (Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "y1_s07",
+      "beat": "Der Halloween-Troll",
+      "bond": 2
+    },
+    {
+      "scene": "g046",
+      "beat": "Kakao bei Hagrid (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g048",
+      "beat": "Quidditch anfeuern (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g050",
+      "beat": "Abend mit der Gang (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g052",
+      "beat": "Lernen mit Hermine (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g054",
+      "beat": "Zauberschach mit Ron (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g056",
+      "beat": "Mit Harry am See (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g058",
+      "beat": "Streifzug mit Lily (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g060",
+      "beat": "Neville beistehen (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g062",
+      "beat": "Kakao bei Hagrid (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g064",
+      "beat": "Quidditch anfeuern (November)",
+      "bond": 1
+    },
+    {
+      "scene": "g066",
+      "beat": "Abend mit der Gang (Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "g068",
+      "beat": "Lernen mit Hermine (Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "g070",
+      "beat": "Zauberschach mit Ron (Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "g072",
+      "beat": "Mit Harry am See (Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "g074",
+      "beat": "Streifzug mit Lily (Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "g076",
+      "beat": "Neville beistehen (Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "y1_s09a",
+      "beat": "Weihnachten in Hogwarts",
+      "bond": 1
+    },
+    {
+      "scene": "g078",
+      "beat": "Kakao bei Hagrid (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g080",
+      "beat": "Quidditch anfeuern (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g082",
+      "beat": "Abend mit der Gang (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g084",
+      "beat": "Lernen mit Hermine (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g086",
+      "beat": "Zauberschach mit Ron (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g088",
+      "beat": "Mit Harry am See (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g090",
+      "beat": "Streifzug mit Lily (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g092",
+      "beat": "Neville beistehen (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g094",
+      "beat": "Kakao bei Hagrid (Januar/Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "g096",
+      "beat": "Quidditch anfeuern (März/April/Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "g098",
+      "beat": "Abend mit der Gang (März/April/Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "g100",
+      "beat": "Lernen mit Hermine (März/April/Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "g102",
+      "beat": "Zauberschach mit Ron (März/April/Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "g104",
+      "beat": "Mit Harry am See (März/April/Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "g106",
+      "beat": "Streifzug mit Lily (März/April/Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "g108",
+      "beat": "Neville beistehen (März/April/Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "y1_s11",
+      "beat": "Der Schutz des Steins",
+      "bond": 1
+    },
+    {
+      "scene": "h002",
+      "beat": "Abend mit der Gang (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "h004",
+      "beat": "Ginny aufmuntern (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "h006",
+      "beat": "Lernen mit Hermine (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "h008",
+      "beat": "Zauberschach mit Ron (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "h010",
+      "beat": "Der Kammer auf der Spur (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "h012",
+      "beat": "Streifzug mit Lily (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "h014",
+      "beat": "Kakao bei Hagrid (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "h016",
+      "beat": "Neville beistehen (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "h018",
+      "beat": "Abend mit der Gang (Jahr 2 · September)",
+      "bond": 1
+    },
+    {
+      "scene": "y2_s06",
+      "beat": "Quidditch: der wilde Klatscher",
+      "bond": 1
+    },
+    {
+      "scene": "h020",
+      "beat": "Ginny aufmuntern (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h022",
+      "beat": "Lernen mit Hermine (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h024",
+      "beat": "Zauberschach mit Ron (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h026",
+      "beat": "Der Kammer auf der Spur (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h028",
+      "beat": "Streifzug mit Lily (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h030",
+      "beat": "Kakao bei Hagrid (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h032",
+      "beat": "Neville beistehen (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h034",
+      "beat": "Abend mit der Gang (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h036",
+      "beat": "Ginny aufmuntern (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "h038",
+      "beat": "Lernen mit Hermine (Jahr 2 · Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "y2_s08",
+      "beat": "Rätselraten im Gemeinschaftsraum",
+      "bond": 1
+    },
+    {
+      "scene": "h040",
+      "beat": "Zauberschach mit Ron (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h042",
+      "beat": "Der Kammer auf der Spur (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h044",
+      "beat": "Streifzug mit Lily (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h046",
+      "beat": "Kakao bei Hagrid (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h048",
+      "beat": "Neville beistehen (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h050",
+      "beat": "Abend mit der Gang (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h052",
+      "beat": "Ginny aufmuntern (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h054",
+      "beat": "Lernen mit Hermine (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h056",
+      "beat": "Zauberschach mit Ron (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "h058",
+      "beat": "Der Kammer auf der Spur (Jahr 2 · November)",
+      "bond": 1
+    },
+    {
+      "scene": "y2_s10",
+      "beat": "Hermines Plan",
+      "bond": 1
+    },
+    {
+      "scene": "y2_s12",
+      "beat": "Recherche mit Hermine",
+      "bond": 1
+    },
+    {
+      "scene": "h060",
+      "beat": "Streifzug mit Lily (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h062",
+      "beat": "Kakao bei Hagrid (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h064",
+      "beat": "Neville beistehen (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h066",
+      "beat": "Abend mit der Gang (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h068",
+      "beat": "Ginny aufmuntern (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h070",
+      "beat": "Lernen mit Hermine (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h072",
+      "beat": "Zauberschach mit Ron (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h074",
+      "beat": "Der Kammer auf der Spur (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h076",
+      "beat": "Streifzug mit Lily (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h078",
+      "beat": "Kakao bei Hagrid (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h080",
+      "beat": "Neville beistehen (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h082",
+      "beat": "Abend mit der Gang (Jahr 2 · Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "h084",
+      "beat": "Ginny aufmuntern (Jahr 2 · April)",
+      "bond": 1
+    },
+    {
+      "scene": "h086",
+      "beat": "Lernen mit Hermine (Jahr 2 · April)",
+      "bond": 1
+    },
+    {
+      "scene": "h088",
+      "beat": "Zauberschach mit Ron (Jahr 2 · April)",
+      "bond": 1
+    },
+    {
+      "scene": "h090",
+      "beat": "Der Kammer auf der Spur (Jahr 2 · April)",
+      "bond": 1
+    },
+    {
+      "scene": "h092",
+      "beat": "Streifzug mit Lily (Jahr 2 · April)",
+      "bond": 1
+    },
+    {
+      "scene": "h094",
+      "beat": "Kakao bei Hagrid (Jahr 2 · April)",
+      "bond": 1
+    },
+    {
+      "scene": "y2_s17",
+      "beat": "Mut in der Tiefe",
+      "bond": 1
+    },
+    {
+      "scene": "h096",
+      "beat": "Neville beistehen (Jahr 2 · Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "h098",
+      "beat": "Abend mit der Gang (Jahr 2 · Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "h100",
+      "beat": "Ginny aufmuntern (Jahr 2 · Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "h102",
+      "beat": "Lernen mit Hermine (Jahr 2 · Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "h104",
+      "beat": "Zauberschach mit Ron (Jahr 2 · Juni)",
+      "bond": 1
+    }
+  ],
+  "total_scenes": 265,
+  "books_covered": [
+    "Stein der Weisen (Jahr 1)",
+    "Kammer des Schreckens (Jahr 2)"
+  ]
+}

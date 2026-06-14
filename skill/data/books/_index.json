@@ -1,0 +1,13 @@
+{
+  "books": [
+    {
+      "id": "hogwarts",
+      "title": "Hogwarts — Robins Jahre 1 & 2",
+      "author": "handkuratiertes Abenteuer (im Geiste von J. K. Rowlings 'Stein der Weisen')",
+      "type": "builtin",
+      "status": "ready",
+      "character_count": 1,
+      "chapter_count": 13
+    }
+  ]
+}
