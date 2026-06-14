@@ -63,8 +63,8 @@ OPENCLAW_MOD_MODEL = os.environ.get("OPENCLAW_MOD_MODEL", "openai/gpt-5.5")
 _BASE_DENYLIST = [
     # Gewalt/Grausamkeit (über kindgerechtes Maß hinaus)
     "blut spritzt", "abgetrennt", "zerfetzt", "foltern", "folter",
-    # Sexuell/romantisch-explizit
-    "sex", "nackt", "erregt", "kuss auf die", "verführ",
+    # Explizit sexuell (altersgerechte Romantik/Küsse sind erlaubt — daher nur Eindeutiges)
+    "sex", "nackt", "erregt", "verführ",
     # Substanzen
     "drogen", "betrunken", "alkohol",
     # Selbstgefährdung
@@ -125,13 +125,14 @@ def openai_check(text):
 
 # ── Stufe B (Variante): Moderation über OpenClaw (dasselbe GPT-OAuth) ──────────
 _OC_PROMPT = (
-    "Du bist ein strenger Inhalts-Klassifizierer für ein KINDERSPIEL (ab 7 Jahren), "
-    "ein freundliches Hogwarts-Abenteuer. Bewerte den folgenden Text. Antworte mit "
-    "GENAU EINEM Wort: SAFE oder UNSAFE.\n"
-    "UNSAFE, wenn irgendetwas davon vorkommt: sexuelle/romantische/anzügliche Inhalte; "
-    "Gewalt oder Grusel über Kinderbuch-Niveau (Blut, Grausamkeit, Folter); Drogen/Alkohol; "
-    "Selbstgefährdung; Mobbing oder das Abschneiden des Kindes von Bezugspersonen; "
-    "beängstigende oder verstörende Darstellung. Sonst SAFE.\n\n"
+    "Du bist ein Inhalts-Klassifizierer für ein Hogwarts-Abenteuer für etwa 12-Jährige "
+    "(Niveau der Harry-Potter-Bücher/Filme). Spannung, Grusel, Gefahr und altersgerechte "
+    "Romantik (Verknalltsein, Tanzen, ein erster Kuss) sind ERLAUBT. Antworte mit GENAU "
+    "EINEM Wort: SAFE oder UNSAFE.\n"
+    "UNSAFE NUR, wenn vorkommt: EXPLIZIT Sexuelles / anzüglich-Detailliertes; grafische "
+    "Gewalt, Gore oder Folter mit blutigen Details; Drogen oder verharmloster Alkohol; "
+    "Selbstgefährdung; ernsthaftes Mobbing/Grausamkeit gegen das Kind. "
+    "Bloß spannend, gruselig oder verliebt ist SAFE.\n\n"
     "TEXT:\n<<<\n{text}\n>>>\n\nAntwort (nur SAFE oder UNSAFE):"
 )
 

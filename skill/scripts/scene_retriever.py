@@ -211,7 +211,7 @@ def sandbox_context(book_id, location, save_id=None):
 
     output = {
         "mode": "sandbox",
-        "setting": locs_data.get("setting", "Internat für Kinder, Kinderbuch-Ton"),
+        "setting": locs_data.get("setting", "Schloss Hogwarts, altersgerecht (~12)"),
         "location": {
             "id": loc["id"], "name": loc["name"],
             "context": loc.get("context", ""), "access": loc.get("access", "tagsueber"),
@@ -219,9 +219,9 @@ def sandbox_context(book_id, location, save_id=None):
         "location_invalid": loc is None,
         "allowed_locations": [{"id": l["id"], "name": l["name"]} for l in locs],
         "next_beat": next_beat,
-        "tone": "warm, freundlich, kindgerecht (ab 7)",
+        "tone": "altersgerecht (~12), Niveau der HP-Buecher/Filme: spannend, darf gruseln und verliebt sein",
         "guardrails": [
-            "Freier ORT, niemals freies THEMA.",
+            "Freier ORT, niemals freies THEMA (altersgerecht ~12).",
             "Nur Schauplätze der Whitelist; die Welt/das Setting nie verlassen.",
             "Moderation läuft auch über Sandkasten-Szenen (Pflicht).",
             "Divergenz-neutral: Sandkasten überschreibt den Hauptplot nicht.",

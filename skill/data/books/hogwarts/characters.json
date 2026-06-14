@@ -64,6 +64,58 @@
         "Barnabas": {
           "note": "der freundliche Schaffner des Fahrenden Doppeldeckers",
           "start_trust": 55
+        },
+        "Lupin": {
+          "note": "dein warmherziger Lehrer für Verteidigung",
+          "start_trust": 50
+        },
+        "Seidenschnabel": {
+          "note": "der stolze Hippogreif, der dich mag",
+          "start_trust": 40
+        },
+        "Sirius": {
+          "note": "ein geheimnisvoller Fremder — kennst du noch nicht",
+          "start_trust": 30
+        },
+        "Cedric": {
+          "note": "ein freundlicher, fairer aelterer Schueler",
+          "start_trust": 45
+        },
+        "Fleur": {
+          "note": "die elegante Champion aus Beauxbatons",
+          "start_trust": 40
+        },
+        "Krum": {
+          "note": "der wortkarge Quidditch-Star aus Durmstrang",
+          "start_trust": 40
+        },
+        "Moody": {
+          "note": "der raue, aber beschuetzende Lehrer",
+          "start_trust": 45
+        },
+        "Dumbledore": {
+          "note": "der gueetige Schulleiter, der ueber alle wacht",
+          "start_trust": 55
+        },
+        "Luna": {
+          "note": "deine vertraeumte, herzensgute neue Freundin",
+          "start_trust": 45
+        },
+        "Cho": {
+          "note": "eine freundliche Ravenclaw aus der Verteidigungs-Gruppe",
+          "start_trust": 42
+        },
+        "Umbridge": {
+          "note": "die ungerechte, herrschsuechtige neue Lehrerin",
+          "start_trust": 25
+        },
+        "Slughorn": {
+          "note": "der jovial-gesellige neue Traenkelehrer",
+          "start_trust": 45
+        },
+        "Lavender": {
+          "note": "Rons fröhlich-verliebte Schwärmerei",
+          "start_trust": 42
         }
       },
       "initial_stats": {
@@ -340,6 +392,279 @@
       "motive": "nicht allein sein",
       "voice": "schniefend, theatralisch, harmlos",
       "first_appearance_chapter": 9
+    },
+    {
+      "id": "sprout",
+      "name": "Professor Sprout",
+      "aliases": [],
+      "playable": false,
+      "personality": "erdverbunden, mütterlich, fröhlich-praktisch; liebt jede Pflanze",
+      "abilities": [
+        "Kräuterkunde-Meisterin"
+      ],
+      "motive": "den Kindern grünen Daumen und Geduld beibringen",
+      "voice": "herzlich, krempelt die Ärmel hoch, immer Erde an den Händen",
+      "first_appearance_chapter": 2
+    },
+    {
+      "id": "flitwick",
+      "name": "Professor Flitwick",
+      "aliases": [],
+      "playable": false,
+      "personality": "winzig, begeistert, gutmütig; freut sich über jeden gelungenen Zauber",
+      "abilities": [
+        "Zauberkunst-Meister"
+      ],
+      "motive": "Begeisterung fürs Zaubern wecken",
+      "voice": "quietschvergnügt, piepsig, klatscht bei Erfolgen in die Hände",
+      "first_appearance_chapter": 2
+    },
+    {
+      "id": "pomfrey",
+      "name": "Madam Pomfrey",
+      "aliases": [],
+      "playable": false,
+      "personality": "resolut und zugleich grundfürsorglich; duldet keinen Unsinn im Krankenflügel",
+      "abilities": [
+        "Heilzauber",
+        "kennt jedes Mittel"
+      ],
+      "motive": "jeden schnell und sicher wieder gesund machen",
+      "voice": "bestimmt, mütterlich: 'Ab ins Bett, eine Tafel Schokolade, und morgen seid ihr wieder fit'",
+      "first_appearance_chapter": 5
+    },
+    {
+      "id": "hooch",
+      "name": "Madam Hooch",
+      "aliases": [],
+      "playable": false,
+      "personality": "sportlich, gerecht, mit scharfem Blick; achtet auf Fairness",
+      "abilities": [
+        "Flugausbilderin",
+        "Quidditch-Schiedsrichterin"
+      ],
+      "motive": "sicheres, faires Fliegen lehren",
+      "voice": "knapp, sportlich, pfeift kurz: 'Auf die Besen — und nett zueinander!'",
+      "first_appearance_chapter": 3
+    },
+    {
+      "id": "lupin",
+      "name": "Professor Lupin",
+      "aliases": [
+        "Remus Lupin"
+      ],
+      "playable": false,
+      "personality": "warm, geduldig, klug, ein wenig müde — aber der beste Lehrer, den man sich wünschen kann",
+      "abilities": [
+        "Verteidigung gegen die dunklen Künste",
+        "lehrt den Patronus-Zauber"
+      ],
+      "motive": "den Kindern Mut geben und beibringen, Angst mit Zuversicht zu begegnen",
+      "voice": "ruhig, ermutigend; hat immer Schokolade dabei",
+      "first_appearance_chapter": 13
+    },
+    {
+      "id": "trelawney",
+      "name": "Professor Trelawney",
+      "aliases": [],
+      "playable": false,
+      "personality": "theatralisch, verschroben, harmlos-mystisch; sieht überall Zeichen",
+      "abilities": [
+        "Wahrsagen (mit viel Fantasie)"
+      ],
+      "motive": "Geheimnisvolles wittern — meint es aber immer gut",
+      "voice": "raunend, dramatisch, riesige Brille; verkündet Unheil und reicht dann Kräutertee",
+      "first_appearance_chapter": 13
+    },
+    {
+      "id": "sirius",
+      "name": "Sirius Black",
+      "aliases": [
+        "der geheimnisvolle Fremde"
+      ],
+      "playable": false,
+      "personality": "zunächst rätselhaft und missverstanden, in Wahrheit warmherzig und treu — Harrys Patenonkel",
+      "abilities": [
+        "kann sich in einen großen schwarzen Hund verwandeln"
+      ],
+      "motive": "Harry beschützen und endlich beweisen, dass er ein Guter ist",
+      "voice": "erst rau und vorsichtig, dann herzlich und beschützend",
+      "first_appearance_chapter": 15
+    },
+    {
+      "id": "seidenschnabel",
+      "name": "Seidenschnabel",
+      "aliases": [
+        "der Hippogreif"
+      ],
+      "playable": false,
+      "is_companion": false,
+      "personality": "stolz und majestätisch; wer sich höflich verbeugt, gewinnt einen treuen Freund",
+      "abilities": [
+        "fliegen",
+        "scharfe Sinne"
+      ],
+      "motive": "mit Respekt behandelt werden",
+      "voice": "(kein Sprechen — klackt mit dem Schnabel, verbeugt sich würdevoll)",
+      "first_appearance_chapter": 13
+    },
+    {
+      "id": "cedric",
+      "name": "Cedric Diggory",
+      "aliases": [],
+      "playable": false,
+      "personality": "freundlich, fair, bescheiden; ein vorbildlicher aelterer Schueler und Hufflepuff-Champion",
+      "abilities": [
+        "guter Sucher",
+        "ruhige Staerke"
+      ],
+      "motive": "fair gewinnen und anderen helfen",
+      "voice": "warmherzig, ermutigend, immer anstaendig",
+      "first_appearance_chapter": 19
+    },
+    {
+      "id": "fleur",
+      "name": "Fleur Delacour",
+      "aliases": [],
+      "playable": false,
+      "personality": "elegant, stolz, aber hilfsbereit; Champion der Schule Beauxbatons",
+      "abilities": [
+        "anmutige Zauberei"
+      ],
+      "motive": "ihre Schule mit Wuerde vertreten",
+      "voice": "hoeflich mit leichtem franzoesischem Akzent, warmherzig unter der eleganten Schale",
+      "first_appearance_chapter": 19
+    },
+    {
+      "id": "krum",
+      "name": "Viktor Krum",
+      "aliases": [],
+      "playable": false,
+      "personality": "wortkarg, ernst, beruehmter Quidditch-Spieler; schuechtern, aber grundanstaendig",
+      "abilities": [
+        "Weltklasse-Sucher"
+      ],
+      "motive": "zeigen, dass hinter dem Ruhm ein netter Kerl steckt",
+      "voice": "knapp, ernst, freundlich wenn man ihn kennenlernt",
+      "first_appearance_chapter": 19
+    },
+    {
+      "id": "moody",
+      "name": "Professor Moody",
+      "aliases": [
+        "Mad-Eye"
+      ],
+      "playable": false,
+      "personality": "rau, knurrig, wachsam — aber er passt scharf auf die Kinder auf",
+      "abilities": [
+        "Verteidigung gegen die dunklen Kuenste",
+        "sieht alles (magisches Auge)"
+      ],
+      "motive": "die Schueler beschuetzen und sie lehren, aufmerksam zu sein",
+      "voice": "rau, brummig, sein Spruch: 'Immer wachsam!' — meint es streng, aber gut",
+      "first_appearance_chapter": 20
+    },
+    {
+      "id": "umbridge",
+      "name": "Professorin Umbridge",
+      "aliases": [
+        "Großinquisitorin"
+      ],
+      "playable": false,
+      "personality": "zuckersuess-falsch, herrschsuechtig und ungerecht; vom Ministerium eingesetzt, um alles zu kontrollieren",
+      "abilities": [
+        "endlose Regeln und Erlaesse",
+        "ein eiskaltes Laecheln"
+      ],
+      "motive": "Hogwarts gefuegig machen und unangenehme Wahrheiten unterdruecken",
+      "voice": "saeuselnd-suesslich, kleines falsches Laecheln ('Hem, hem'); streng und ungerecht, aber nie blutig — institutionelle Kaelte",
+      "first_appearance_chapter": 25
+    },
+    {
+      "id": "luna",
+      "name": "Luna Lovegood",
+      "aliases": [],
+      "playable": false,
+      "personality": "vertraeumt, eigen, herzensgut; sieht die Welt anders und ist eine treue, unerschuetterliche Freundin",
+      "abilities": [
+        "unerschuetterliche Ruhe",
+        "sieht Schoenheit, wo andere nichts sehen"
+      ],
+      "motive": "sie selbst bleiben und fuer ihre Freunde da sein",
+      "voice": "ruhig, vertraeumt, sagt unerwartet weise Dinge",
+      "first_appearance_chapter": 26
+    },
+    {
+      "id": "cho",
+      "name": "Cho Chang",
+      "aliases": [],
+      "playable": false,
+      "personality": "freundlich, beliebt, eine kluge Ravenclaw; mag Harry (altersgerechtes erstes Verliebtsein)",
+      "abilities": [
+        "gute Sucherin"
+      ],
+      "motive": "Freundschaften pflegen und das Richtige tun",
+      "voice": "freundlich, ein bisschen schuechtern",
+      "first_appearance_chapter": 27
+    },
+    {
+      "id": "slughorn",
+      "name": "Professor Slughorn",
+      "aliases": [],
+      "playable": false,
+      "personality": "jovial, gesellig, ein bisschen eitel; sammelt gern begabte Schueler um sich ('Slug-Club'), aber im Kern gutmuetig",
+      "abilities": [
+        "Meister der Zaubertraenke",
+        "beste Verbindungen"
+      ],
+      "motive": "von Talenten umgeben sein und gemocht werden",
+      "voice": "warm, schwungvoll, name-droppt gern ('mein lieber Junge')",
+      "first_appearance_chapter": 31
+    },
+    {
+      "id": "lavender",
+      "name": "Lavender Brown",
+      "aliases": [],
+      "playable": false,
+      "personality": "fröhlich, verträumt-verliebt, ein bisschen dramatisch; Rons erste Schwärmerei",
+      "abilities": [
+        "gute Laune",
+        "kichert gern"
+      ],
+      "motive": "verknallt sein und dazugehoeren",
+      "voice": "kichernd, herzlich, schwaermt von 'Won-Won'",
+      "first_appearance_chapter": 32
+    },
+    {
+      "id": "carrow",
+      "name": "Professor Carrow",
+      "aliases": [
+        "die Carrows"
+      ],
+      "playable": false,
+      "personality": "kalt, herrschsuechtig, geniesst Strafen — Vollstrecker der dunklen Herrschaft an der Schule (institutionelle Haerte, nie blutig dargestellt)",
+      "abilities": [
+        "Drohungen und Erlasse"
+      ],
+      "motive": "die Schueler einschuechtern und gefuegig machen",
+      "voice": "barsch, kalt, ohne Waerme; das Gegenteil eines guten Lehrers",
+      "first_appearance_chapter": 37
+    },
+    {
+      "id": "voldemort",
+      "name": "Voldemort",
+      "aliases": [
+        "der dunkle Zauberer",
+        "Du-weisst-schon-wer"
+      ],
+      "playable": false,
+      "personality": "eiskalt, machtbesessen, ohne Mitgefuehl — der Inbegriff der Finsternis, am Ende besiegt",
+      "abilities": [
+        "maechtige dunkle Magie"
+      ],
+      "motive": "herrschen und Unsterblichkeit — und doch verliert er gegen Liebe und Mut",
+      "voice": "hohe, kalte Stimme; bedrohlich, aber in der Erzaehlung nie grausig-detailliert",
+      "first_appearance_chapter": 42
     }
   ]
 }

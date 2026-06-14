@@ -1,9 +1,9 @@
 {
   "id": "hogwarts",
-  "title": "Hogwarts — Robins Jahre 1 & 2",
+  "title": "Hogwarts - Robins sieben Jahre (komplette Saga)",
   "author": "handkuratiertes Abenteuer (im Geiste von J. K. Rowlings 'Stein der Weisen')",
   "language": "de",
-  "age_rating": "ab 7 — kindgerecht",
+  "age_rating": "ca. 12 — altersgerecht (Niveau der Harry-Potter-Bücher/Filme)",
   "total_chapters": 13,
   "note": "Handkuratierte Metadaten + Modellwissen. KEIN importierter Buchtext.",
   "player_character": "player_heroine",
@@ -242,6 +242,450 @@
         "ginny"
       ],
       "summary": "Jahr 2 — Finale & Schuljahresende"
+    },
+    {
+      "number": 13,
+      "title": "Jahr 3 - Sommer & Rueckkehr",
+      "scene_count": 21,
+      "key_characters": [
+        "player_heroine",
+        "lupin",
+        "harry",
+        "ron",
+        "hermine",
+        "sirius",
+        "seidenschnabel"
+      ],
+      "summary": "Jahr 3 - Sommer & Rueckkehr"
+    },
+    {
+      "number": 14,
+      "title": "Jahr 3 - Neue Faecher",
+      "scene_count": 23,
+      "key_characters": [
+        "player_heroine",
+        "lupin",
+        "harry",
+        "ron",
+        "hermine",
+        "sirius",
+        "seidenschnabel"
+      ],
+      "summary": "Jahr 3 - Neue Faecher"
+    },
+    {
+      "number": 15,
+      "title": "Jahr 3 - Waechter & Patronus",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "lupin",
+        "harry",
+        "ron",
+        "hermine",
+        "sirius",
+        "seidenschnabel"
+      ],
+      "summary": "Jahr 3 - Waechter & Patronus"
+    },
+    {
+      "number": 16,
+      "title": "Jahr 3 - Das Geheimnis um Sirius",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "lupin",
+        "harry",
+        "ron",
+        "hermine",
+        "sirius",
+        "seidenschnabel"
+      ],
+      "summary": "Jahr 3 - Das Geheimnis um Sirius"
+    },
+    {
+      "number": 17,
+      "title": "Jahr 3 - Die Wahrheit",
+      "scene_count": 15,
+      "key_characters": [
+        "player_heroine",
+        "lupin",
+        "harry",
+        "ron",
+        "hermine",
+        "sirius",
+        "seidenschnabel"
+      ],
+      "summary": "Jahr 3 - Die Wahrheit"
+    },
+    {
+      "number": 18,
+      "title": "Jahr 3 - Rettung & Abschied",
+      "scene_count": 3,
+      "key_characters": [
+        "player_heroine",
+        "lupin",
+        "harry",
+        "ron",
+        "hermine",
+        "sirius",
+        "seidenschnabel"
+      ],
+      "summary": "Jahr 3 - Rettung & Abschied"
+    },
+    {
+      "number": 19,
+      "title": "Jahr 4 - Auftakt & Champions",
+      "scene_count": 21,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "cedric",
+        "fleur",
+        "krum",
+        "moody"
+      ],
+      "summary": "Jahr 4 - Auftakt & Champions"
+    },
+    {
+      "number": 20,
+      "title": "Jahr 4 - Erste Aufgabe",
+      "scene_count": 23,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "cedric",
+        "fleur",
+        "krum",
+        "moody"
+      ],
+      "summary": "Jahr 4 - Erste Aufgabe"
+    },
+    {
+      "number": 21,
+      "title": "Jahr 4 - Der Weihnachtsball",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "cedric",
+        "fleur",
+        "krum",
+        "moody"
+      ],
+      "summary": "Jahr 4 - Der Weihnachtsball"
+    },
+    {
+      "number": 22,
+      "title": "Jahr 4 - Zweite Aufgabe",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "cedric",
+        "fleur",
+        "krum",
+        "moody"
+      ],
+      "summary": "Jahr 4 - Zweite Aufgabe"
+    },
+    {
+      "number": 23,
+      "title": "Jahr 4 - Vor dem Finale",
+      "scene_count": 17,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "cedric",
+        "fleur",
+        "krum",
+        "moody"
+      ],
+      "summary": "Jahr 4 - Vor dem Finale"
+    },
+    {
+      "number": 24,
+      "title": "Jahr 4 - Das Labyrinth & Ausklang",
+      "scene_count": 4,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "cedric",
+        "fleur",
+        "krum",
+        "moody"
+      ],
+      "summary": "Jahr 4 - Das Labyrinth & Ausklang"
+    },
+    {
+      "number": 25,
+      "title": "Jahr 5 - Duesterer Sommer & Umbridge",
+      "scene_count": 21,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "luna",
+        "neville",
+        "umbridge",
+        "sirius",
+        "dumbledore"
+      ],
+      "summary": "Jahr 5 - Duesterer Sommer & Umbridge"
+    },
+    {
+      "number": 26,
+      "title": "Jahr 5 - Umbridges Regime",
+      "scene_count": 23,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "luna",
+        "neville",
+        "umbridge",
+        "sirius",
+        "dumbledore"
+      ],
+      "summary": "Jahr 5 - Umbridges Regime"
+    },
+    {
+      "number": 27,
+      "title": "Jahr 5 - Dumbledores Armee",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "luna",
+        "neville",
+        "umbridge",
+        "sirius",
+        "dumbledore"
+      ],
+      "summary": "Jahr 5 - Dumbledores Armee"
+    },
+    {
+      "number": 28,
+      "title": "Jahr 5 - Widerstand & Schatten",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "luna",
+        "neville",
+        "umbridge",
+        "sirius",
+        "dumbledore"
+      ],
+      "summary": "Jahr 5 - Widerstand & Schatten"
+    },
+    {
+      "number": 29,
+      "title": "Jahr 5 - Zum Ministerium",
+      "scene_count": 17,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "luna",
+        "neville",
+        "umbridge",
+        "sirius",
+        "dumbledore"
+      ],
+      "summary": "Jahr 5 - Zum Ministerium"
+    },
+    {
+      "number": 30,
+      "title": "Jahr 5 - Verlust & Hoffnung",
+      "scene_count": 4,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "luna",
+        "neville",
+        "umbridge",
+        "sirius",
+        "dumbledore"
+      ],
+      "summary": "Jahr 5 - Verlust & Hoffnung"
+    },
+    {
+      "number": 31,
+      "title": "Jahr 6 - Auftakt & Slughorn",
+      "scene_count": 21,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "slughorn",
+        "dumbledore",
+        "snape",
+        "ron",
+        "hermine"
+      ],
+      "summary": "Jahr 6 - Auftakt & Slughorn"
+    },
+    {
+      "number": 32,
+      "title": "Jahr 6 - Traenkebuch & Romantik",
+      "scene_count": 23,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "slughorn",
+        "dumbledore",
+        "snape",
+        "ron",
+        "hermine"
+      ],
+      "summary": "Jahr 6 - Traenkebuch & Romantik"
+    },
+    {
+      "number": 33,
+      "title": "Jahr 6 - Dumbledores Stunden",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "slughorn",
+        "dumbledore",
+        "snape",
+        "ron",
+        "hermine"
+      ],
+      "summary": "Jahr 6 - Dumbledores Stunden"
+    },
+    {
+      "number": 34,
+      "title": "Jahr 6 - Zwischen Licht und Schatten",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "slughorn",
+        "dumbledore",
+        "snape",
+        "ron",
+        "hermine"
+      ],
+      "summary": "Jahr 6 - Zwischen Licht und Schatten"
+    },
+    {
+      "number": 35,
+      "title": "Jahr 6 - Die Nacht des Angriffs",
+      "scene_count": 17,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "slughorn",
+        "dumbledore",
+        "snape",
+        "ron",
+        "hermine"
+      ],
+      "summary": "Jahr 6 - Die Nacht des Angriffs"
+    },
+    {
+      "number": 36,
+      "title": "Jahr 6 - Abschied von Dumbledore",
+      "scene_count": 4,
+      "key_characters": [
+        "player_heroine",
+        "harry",
+        "slughorn",
+        "dumbledore",
+        "snape",
+        "ron",
+        "hermine"
+      ],
+      "summary": "Jahr 6 - Abschied von Dumbledore"
+    },
+    {
+      "number": 37,
+      "title": "Jahr 7 - Duesterer Auftakt & Widerstand",
+      "scene_count": 21,
+      "key_characters": [
+        "player_heroine",
+        "neville",
+        "luna",
+        "ginny",
+        "harry",
+        "voldemort",
+        "mcgonagall"
+      ],
+      "summary": "Jahr 7 - Duesterer Auftakt & Widerstand"
+    },
+    {
+      "number": 38,
+      "title": "Jahr 7 - Kleine Akte des Mutes",
+      "scene_count": 23,
+      "key_characters": [
+        "player_heroine",
+        "neville",
+        "luna",
+        "ginny",
+        "harry",
+        "voldemort",
+        "mcgonagall"
+      ],
+      "summary": "Jahr 7 - Kleine Akte des Mutes"
+    },
+    {
+      "number": 39,
+      "title": "Jahr 7 - Durchhalten",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "neville",
+        "luna",
+        "ginny",
+        "harry",
+        "voldemort",
+        "mcgonagall"
+      ],
+      "summary": "Jahr 7 - Durchhalten"
+    },
+    {
+      "number": 40,
+      "title": "Jahr 7 - Harry kehrt zurueck",
+      "scene_count": 27,
+      "key_characters": [
+        "player_heroine",
+        "neville",
+        "luna",
+        "ginny",
+        "harry",
+        "voldemort",
+        "mcgonagall"
+      ],
+      "summary": "Jahr 7 - Harry kehrt zurueck"
+    },
+    {
+      "number": 41,
+      "title": "Jahr 7 - Die Schlacht um Hogwarts",
+      "scene_count": 17,
+      "key_characters": [
+        "player_heroine",
+        "neville",
+        "luna",
+        "ginny",
+        "harry",
+        "voldemort",
+        "mcgonagall"
+      ],
+      "summary": "Jahr 7 - Die Schlacht um Hogwarts"
+    },
+    {
+      "number": 42,
+      "title": "Jahr 7 - Sieg & ein neuer Morgen",
+      "scene_count": 4,
+      "key_characters": [
+        "player_heroine",
+        "neville",
+        "luna",
+        "ginny",
+        "harry",
+        "voldemort",
+        "mcgonagall"
+      ],
+      "summary": "Jahr 7 - Sieg & ein neuer Morgen"
     }
   ],
   "crossing_points": [
@@ -834,11 +1278,1411 @@
       "scene": "h104",
       "beat": "Zauberschach mit Ron (Jahr 2 · Juni)",
       "bond": 1
+    },
+    {
+      "scene": "k002",
+      "beat": "Abend mit der Gang (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "k004",
+      "beat": "Patronus ueben (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "k006",
+      "beat": "Besuch bei Seidenschnabel (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "k008",
+      "beat": "Hogsmeade mit der Gang (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "k010",
+      "beat": "Lernen mit Hermine (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "k012",
+      "beat": "Gespraech mit Lupin (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "k014",
+      "beat": "Neville beistehen (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "k016",
+      "beat": "Abend mit der Gang (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "k018",
+      "beat": "Patronus ueben (Jahr 3 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "y3_s05",
+      "beat": "Hagrids erste Stunde: Seidenschnabel",
+      "bond": 1
+    },
+    {
+      "scene": "y3_s06",
+      "beat": "Erster Ausflug nach Hogsmeade",
+      "bond": 1
+    },
+    {
+      "scene": "k020",
+      "beat": "Besuch bei Seidenschnabel (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k022",
+      "beat": "Hogsmeade mit der Gang (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k024",
+      "beat": "Lernen mit Hermine (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k026",
+      "beat": "Gespraech mit Lupin (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k028",
+      "beat": "Neville beistehen (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k030",
+      "beat": "Abend mit der Gang (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k032",
+      "beat": "Patronus ueben (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k034",
+      "beat": "Besuch bei Seidenschnabel (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k036",
+      "beat": "Hogsmeade mit der Gang (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "k038",
+      "beat": "Lernen mit Hermine (Jahr 3 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "y3_s08",
+      "beat": "Lupin lehrt den Patronus",
+      "bond": 1
+    },
+    {
+      "scene": "k040",
+      "beat": "Gespraech mit Lupin (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k042",
+      "beat": "Neville beistehen (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k044",
+      "beat": "Abend mit der Gang (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k046",
+      "beat": "Patronus ueben (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k048",
+      "beat": "Besuch bei Seidenschnabel (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k050",
+      "beat": "Hogsmeade mit der Gang (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k052",
+      "beat": "Lernen mit Hermine (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k054",
+      "beat": "Gespraech mit Lupin (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k056",
+      "beat": "Neville beistehen (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k058",
+      "beat": "Abend mit der Gang (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k060",
+      "beat": "Patronus ueben (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "k062",
+      "beat": "Besuch bei Seidenschnabel (Jahr 3 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "y3_s12",
+      "beat": "Zusammenhalten",
+      "bond": 1
+    },
+    {
+      "scene": "k064",
+      "beat": "Hogsmeade mit der Gang (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k066",
+      "beat": "Lernen mit Hermine (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k068",
+      "beat": "Gespraech mit Lupin (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k070",
+      "beat": "Neville beistehen (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k072",
+      "beat": "Abend mit der Gang (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k074",
+      "beat": "Patronus ueben (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k076",
+      "beat": "Besuch bei Seidenschnabel (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k078",
+      "beat": "Hogsmeade mit der Gang (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k080",
+      "beat": "Lernen mit Hermine (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k082",
+      "beat": "Gespraech mit Lupin (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k084",
+      "beat": "Neville beistehen (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "k086",
+      "beat": "Abend mit der Gang (Jahr 3 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "y3_s15",
+      "beat": "Die Dementoren am See — der grosse Patronus",
+      "bond": 1
+    },
+    {
+      "scene": "k088",
+      "beat": "Patronus ueben (Jahr 3 - Fruehjahr)",
+      "bond": 1
+    },
+    {
+      "scene": "k090",
+      "beat": "Besuch bei Seidenschnabel (Jahr 3 - Fruehjahr)",
+      "bond": 1
+    },
+    {
+      "scene": "k092",
+      "beat": "Hogsmeade mit der Gang (Jahr 3 - Fruehjahr)",
+      "bond": 1
+    },
+    {
+      "scene": "k094",
+      "beat": "Lernen mit Hermine (Jahr 3 - Fruehjahr)",
+      "bond": 1
+    },
+    {
+      "scene": "k096",
+      "beat": "Gespraech mit Lupin (Jahr 3 - Fruehjahr)",
+      "bond": 1
+    },
+    {
+      "scene": "k098",
+      "beat": "Neville beistehen (Jahr 3 - Fruehjahr)",
+      "bond": 1
+    },
+    {
+      "scene": "y3_s16",
+      "beat": "Der Zeitumkehrer: Seidenschnabel retten",
+      "bond": 1
+    },
+    {
+      "scene": "v002",
+      "beat": "Abend mit der Gang (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "v004",
+      "beat": "Zeit mit Cedric (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "v006",
+      "beat": "Mit den Gaesten anfreunden (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "v008",
+      "beat": "Lernen mit Hermine (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "v010",
+      "beat": "Tanzschritte ueben (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "v012",
+      "beat": "Neville beistehen (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "v014",
+      "beat": "Kakao bei Hagrid (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "v016",
+      "beat": "Abend mit der Gang (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "v018",
+      "beat": "Zeit mit Cedric (Jahr 4 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "y4_s05",
+      "beat": "Harry fuer die erste Aufgabe vorbereiten",
+      "bond": 1
+    },
+    {
+      "scene": "v020",
+      "beat": "Mit den Gaesten anfreunden (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v022",
+      "beat": "Lernen mit Hermine (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v024",
+      "beat": "Tanzschritte ueben (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v026",
+      "beat": "Neville beistehen (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v028",
+      "beat": "Kakao bei Hagrid (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v030",
+      "beat": "Abend mit der Gang (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v032",
+      "beat": "Zeit mit Cedric (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v034",
+      "beat": "Mit den Gaesten anfreunden (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v036",
+      "beat": "Lernen mit Hermine (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "v038",
+      "beat": "Tanzschritte ueben (Jahr 4 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "y4_s07",
+      "beat": "Vorfreude auf den Weihnachtsball",
+      "bond": 1
+    },
+    {
+      "scene": "y4_s08",
+      "beat": "Der Weihnachtsball",
+      "bond": 1
+    },
+    {
+      "scene": "v040",
+      "beat": "Neville beistehen (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v042",
+      "beat": "Kakao bei Hagrid (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v044",
+      "beat": "Abend mit der Gang (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v046",
+      "beat": "Zeit mit Cedric (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v048",
+      "beat": "Mit den Gaesten anfreunden (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v050",
+      "beat": "Lernen mit Hermine (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v052",
+      "beat": "Tanzschritte ueben (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v054",
+      "beat": "Neville beistehen (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v056",
+      "beat": "Kakao bei Hagrid (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v058",
+      "beat": "Abend mit der Gang (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v060",
+      "beat": "Zeit mit Cedric (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "v062",
+      "beat": "Mit den Gaesten anfreunden (Jahr 4 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "y4_s10",
+      "beat": "Vorbereitung auf die See-Aufgabe",
+      "bond": 1
+    },
+    {
+      "scene": "y4_s12",
+      "beat": "Sportsgeist: zusammen feiern",
+      "bond": 1
+    },
+    {
+      "scene": "v064",
+      "beat": "Lernen mit Hermine (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v066",
+      "beat": "Tanzschritte ueben (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v068",
+      "beat": "Neville beistehen (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v070",
+      "beat": "Kakao bei Hagrid (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v072",
+      "beat": "Abend mit der Gang (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v074",
+      "beat": "Zeit mit Cedric (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v076",
+      "beat": "Mit den Gaesten anfreunden (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v078",
+      "beat": "Lernen mit Hermine (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v080",
+      "beat": "Tanzschritte ueben (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v082",
+      "beat": "Neville beistehen (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v084",
+      "beat": "Kakao bei Hagrid (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "v086",
+      "beat": "Abend mit der Gang (Jahr 4 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "y4_s15",
+      "beat": "Harry fuers Labyrinth staerken",
+      "bond": 1
+    },
+    {
+      "scene": "v088",
+      "beat": "Zeit mit Cedric (Jahr 4 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "v090",
+      "beat": "Mit den Gaesten anfreunden (Jahr 4 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "v092",
+      "beat": "Lernen mit Hermine (Jahr 4 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "v094",
+      "beat": "Tanzschritte ueben (Jahr 4 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "v096",
+      "beat": "Neville beistehen (Jahr 4 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "v098",
+      "beat": "Kakao bei Hagrid (Jahr 4 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "v100",
+      "beat": "Abend mit der Gang (Jahr 4 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "w002",
+      "beat": "DA-Training (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "w004",
+      "beat": "Zeit mit Luna (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "w006",
+      "beat": "Abend mit der Gang (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "w008",
+      "beat": "Neville staerken (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "w010",
+      "beat": "Lernen mit Hermine (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "w012",
+      "beat": "Mut mit Ginny (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "w014",
+      "beat": "Kakao bei Hagrid (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "w016",
+      "beat": "DA-Training (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "w018",
+      "beat": "Zeit mit Luna (Jahr 5 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "y5_s06",
+      "beat": "Luna Lovegood",
+      "bond": 1
+    },
+    {
+      "scene": "w020",
+      "beat": "Abend mit der Gang (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w022",
+      "beat": "Neville staerken (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w024",
+      "beat": "Lernen mit Hermine (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w026",
+      "beat": "Mut mit Ginny (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w028",
+      "beat": "Kakao bei Hagrid (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w030",
+      "beat": "DA-Training (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w032",
+      "beat": "Zeit mit Luna (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w034",
+      "beat": "Abend mit der Gang (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w036",
+      "beat": "Neville staerken (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "w038",
+      "beat": "Lernen mit Hermine (Jahr 5 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "y5_s07",
+      "beat": "Die Idee: Dumbledores Armee",
+      "bond": 1
+    },
+    {
+      "scene": "y5_s09",
+      "beat": "DA-Training: echte Verteidigung",
+      "bond": 1
+    },
+    {
+      "scene": "w040",
+      "beat": "Mut mit Ginny (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w042",
+      "beat": "Kakao bei Hagrid (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w044",
+      "beat": "DA-Training (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w046",
+      "beat": "Zeit mit Luna (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w048",
+      "beat": "Abend mit der Gang (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w050",
+      "beat": "Neville staerken (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w052",
+      "beat": "Lernen mit Hermine (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w054",
+      "beat": "Mut mit Ginny (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w056",
+      "beat": "Kakao bei Hagrid (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w058",
+      "beat": "DA-Training (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w060",
+      "beat": "Zeit mit Luna (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "w062",
+      "beat": "Abend mit der Gang (Jahr 5 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "y5_s11",
+      "beat": "Mut im Verborgenen",
+      "bond": 1
+    },
+    {
+      "scene": "w064",
+      "beat": "Neville staerken (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w066",
+      "beat": "Lernen mit Hermine (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w068",
+      "beat": "Mut mit Ginny (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w070",
+      "beat": "Kakao bei Hagrid (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w072",
+      "beat": "DA-Training (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w074",
+      "beat": "Zeit mit Luna (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w076",
+      "beat": "Abend mit der Gang (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w078",
+      "beat": "Neville staerken (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w080",
+      "beat": "Lernen mit Hermine (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w082",
+      "beat": "Mut mit Ginny (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w084",
+      "beat": "Kakao bei Hagrid (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "w086",
+      "beat": "DA-Training (Jahr 5 - Januar)",
+      "bond": 1
+    },
+    {
+      "scene": "y5_s14",
+      "beat": "Aufbruch zum Ministerium",
+      "bond": 1
+    },
+    {
+      "scene": "w088",
+      "beat": "Zeit mit Luna (Jahr 5 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "w090",
+      "beat": "Abend mit der Gang (Jahr 5 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "w092",
+      "beat": "Neville staerken (Jahr 5 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "w094",
+      "beat": "Lernen mit Hermine (Jahr 5 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "w096",
+      "beat": "Mut mit Ginny (Jahr 5 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "w098",
+      "beat": "Kakao bei Hagrid (Jahr 5 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "w100",
+      "beat": "DA-Training (Jahr 5 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "y5_s16",
+      "beat": "Der Orden kommt zu Hilfe",
+      "bond": 1
+    },
+    {
+      "scene": "y6_s03",
+      "beat": "Der Slug-Club",
+      "bond": 1
+    },
+    {
+      "scene": "n002",
+      "beat": "Abend mit der Gang (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "n004",
+      "beat": "Hermine troesten (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "n006",
+      "beat": "Zeit mit Ginny (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "n008",
+      "beat": "Zeit mit Luna (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "n010",
+      "beat": "Neville staerken (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "n012",
+      "beat": "Slughorns Runde (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "n014",
+      "beat": "Kakao bei Hagrid (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "n016",
+      "beat": "Abend mit der Gang (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "n018",
+      "beat": "Hermine troesten (Jahr 6 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "y6_s05",
+      "beat": "Quidditch: Harry als Kapitaen",
+      "bond": 1
+    },
+    {
+      "scene": "n020",
+      "beat": "Zeit mit Ginny (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n022",
+      "beat": "Zeit mit Luna (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n024",
+      "beat": "Neville staerken (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n026",
+      "beat": "Slughorns Runde (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n028",
+      "beat": "Kakao bei Hagrid (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n030",
+      "beat": "Abend mit der Gang (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n032",
+      "beat": "Hermine troesten (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n034",
+      "beat": "Zeit mit Ginny (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n036",
+      "beat": "Zeit mit Luna (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "n038",
+      "beat": "Neville staerken (Jahr 6 - November)",
+      "bond": 1
+    },
+    {
+      "scene": "y6_s08",
+      "beat": "Sorge um Malfoy",
+      "bond": 1
+    },
+    {
+      "scene": "n040",
+      "beat": "Slughorns Runde (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n042",
+      "beat": "Kakao bei Hagrid (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n044",
+      "beat": "Abend mit der Gang (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n046",
+      "beat": "Hermine troesten (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n048",
+      "beat": "Zeit mit Ginny (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n050",
+      "beat": "Zeit mit Luna (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n052",
+      "beat": "Neville staerken (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n054",
+      "beat": "Slughorns Runde (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n056",
+      "beat": "Kakao bei Hagrid (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n058",
+      "beat": "Abend mit der Gang (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n060",
+      "beat": "Hermine troesten (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "n062",
+      "beat": "Zeit mit Ginny (Jahr 6 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "y6_s10",
+      "beat": "Ein warmer Moment im Winter",
+      "bond": 1
+    },
+    {
+      "scene": "y6_s11",
+      "beat": "Erste Verliebtheit",
+      "bond": 1
+    },
+    {
+      "scene": "n064",
+      "beat": "Zeit mit Luna (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n066",
+      "beat": "Neville staerken (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n068",
+      "beat": "Slughorns Runde (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n070",
+      "beat": "Kakao bei Hagrid (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n072",
+      "beat": "Abend mit der Gang (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n074",
+      "beat": "Hermine troesten (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n076",
+      "beat": "Zeit mit Ginny (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n078",
+      "beat": "Zeit mit Luna (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n080",
+      "beat": "Neville staerken (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n082",
+      "beat": "Slughorns Runde (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n084",
+      "beat": "Kakao bei Hagrid (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "n086",
+      "beat": "Abend mit der Gang (Jahr 6 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "y6_s14",
+      "beat": "Wache halten — die DA ist bereit",
+      "bond": 1
+    },
+    {
+      "scene": "n088",
+      "beat": "Hermine troesten (Jahr 6 - Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "n090",
+      "beat": "Zeit mit Ginny (Jahr 6 - Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "n092",
+      "beat": "Zeit mit Luna (Jahr 6 - Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "n094",
+      "beat": "Neville staerken (Jahr 6 - Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "n096",
+      "beat": "Slughorns Runde (Jahr 6 - Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "n098",
+      "beat": "Kakao bei Hagrid (Jahr 6 - Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "n100",
+      "beat": "Abend mit der Gang (Jahr 6 - Juni)",
+      "bond": 1
+    },
+    {
+      "scene": "y7_s03",
+      "beat": "Die DA lebt wieder auf",
+      "bond": 1
+    },
+    {
+      "scene": "d002",
+      "beat": "Widerstands-Treffen (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "d004",
+      "beat": "Neville staerken (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "d006",
+      "beat": "Zeit mit Luna (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "d008",
+      "beat": "Mut mit Ginny (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "d010",
+      "beat": "Juengere beschuetzen (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "d012",
+      "beat": "Mut bei Hagrid (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "d014",
+      "beat": "Widerstands-Treffen (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "d016",
+      "beat": "Neville staerken (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "d018",
+      "beat": "Zeit mit Luna (Jahr 7 - September)",
+      "bond": 1
+    },
+    {
+      "scene": "y7_s05",
+      "beat": "Zuflucht im Raum der Wuensche",
+      "bond": 1
+    },
+    {
+      "scene": "d020",
+      "beat": "Mut mit Ginny (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d022",
+      "beat": "Juengere beschuetzen (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d024",
+      "beat": "Mut bei Hagrid (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d026",
+      "beat": "Widerstands-Treffen (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d028",
+      "beat": "Neville staerken (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d030",
+      "beat": "Zeit mit Luna (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d032",
+      "beat": "Mut mit Ginny (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d034",
+      "beat": "Juengere beschuetzen (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d036",
+      "beat": "Mut bei Hagrid (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "d038",
+      "beat": "Widerstands-Treffen (Jahr 7 - Oktober)",
+      "bond": 1
+    },
+    {
+      "scene": "y7_s08",
+      "beat": "Mut bewahren, fuereinander da sein",
+      "bond": 1
+    },
+    {
+      "scene": "d040",
+      "beat": "Neville staerken (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d042",
+      "beat": "Zeit mit Luna (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d044",
+      "beat": "Mut mit Ginny (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d046",
+      "beat": "Juengere beschuetzen (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d048",
+      "beat": "Mut bei Hagrid (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d050",
+      "beat": "Widerstands-Treffen (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d052",
+      "beat": "Neville staerken (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d054",
+      "beat": "Zeit mit Luna (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d056",
+      "beat": "Mut mit Ginny (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d058",
+      "beat": "Juengere beschuetzen (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d060",
+      "beat": "Mut bei Hagrid (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "d062",
+      "beat": "Widerstands-Treffen (Jahr 7 - Dezember)",
+      "bond": 1
+    },
+    {
+      "scene": "y7_s10",
+      "beat": "Harry ist zurueck!",
+      "bond": 1
+    },
+    {
+      "scene": "y7_s12",
+      "beat": "Bereit fuer die Schlacht",
+      "bond": 1
+    },
+    {
+      "scene": "d064",
+      "beat": "Neville staerken (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d066",
+      "beat": "Zeit mit Luna (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d068",
+      "beat": "Mut mit Ginny (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d070",
+      "beat": "Juengere beschuetzen (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d072",
+      "beat": "Mut bei Hagrid (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d074",
+      "beat": "Widerstands-Treffen (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d076",
+      "beat": "Neville staerken (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d078",
+      "beat": "Zeit mit Luna (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d080",
+      "beat": "Mut mit Ginny (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d082",
+      "beat": "Juengere beschuetzen (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d084",
+      "beat": "Mut bei Hagrid (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "d086",
+      "beat": "Widerstands-Treffen (Jahr 7 - Februar)",
+      "bond": 1
+    },
+    {
+      "scene": "y7_s15",
+      "beat": "Nevilles grosser Moment",
+      "bond": 1
+    },
+    {
+      "scene": "d088",
+      "beat": "Neville staerken (Jahr 7 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "d090",
+      "beat": "Zeit mit Luna (Jahr 7 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "d092",
+      "beat": "Mut mit Ginny (Jahr 7 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "d094",
+      "beat": "Juengere beschuetzen (Jahr 7 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "d096",
+      "beat": "Mut bei Hagrid (Jahr 7 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "d098",
+      "beat": "Widerstands-Treffen (Jahr 7 - Mai)",
+      "bond": 1
+    },
+    {
+      "scene": "d100",
+      "beat": "Neville staerken (Jahr 7 - Mai)",
+      "bond": 1
     }
   ],
-  "total_scenes": 265,
+  "total_scenes": 857,
   "books_covered": [
     "Stein der Weisen (Jahr 1)",
-    "Kammer des Schreckens (Jahr 2)"
+    "Kammer des Schreckens (Jahr 2)",
+    "Gefangener von Askaban (Jahr 3)",
+    "Feuerkelch (Jahr 4)",
+    "Orden des Phoenix (Jahr 5)",
+    "Halbblutprinz (Jahr 6)",
+    "Heiligtuemer des Todes (Jahr 7)"
   ]
 }
