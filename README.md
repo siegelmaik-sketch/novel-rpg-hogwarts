@@ -37,23 +37,44 @@ Ron, Hermine & Co. die Nebenfiguren in *deiner* Geschichte sind.
 
 ## ✨ Ein Blick ins Spiel
 
-> *Ausschnitt aus dem Prolog — wie sich eine Runde anfühlt:*
+> *Zuerst erschaffst du deine Figur — ein kurzes, warmes Gespräch, kein Formular:*
+
+```text
+Bevor dein Brief aus Hogwarts ankommt, möchte ich dich kennenlernen. ✨
+
+  Wie heißt du in der Zauberwelt?            (Vorschlag: Robin)
+  › Mara
+
+  Bist du ein Mädchen, ein Junge — oder sagst du's lieber neutral?
+  › ein Mädchen
+
+  Aus welchem Ort kommst du?                 (darf erfunden sein)
+  › Lindendorf am Fluss
+
+  Und hast du ein Haustier dabei? Welches?   (Vorschlag: der Malteser Flocke)
+  › eine kleine Schleiereule namens Pünktchen
+
+Schön, Mara! Dann flieg Pünktchen mal ein Stück voraus — euer Abenteuer
+beginnt zu Hause in Lindendorf am Fluss …
+```
+
+> *Und so fühlt sich dann eine Runde im Spiel an:*
 
 ```text
 WINKELGASSE · OLLIVANDERS ZAUBERSTABLADEN
 
 Staub tanzt in den schmalen Lichtbahnen zwischen tausenden schmaler Schachteln,
-die sich bis unter die Decke stapeln. Flocke drückt sich eng an dein Bein und
-winselt leise. Lily hält dir den Arm fest.
+die sich bis unter die Decke stapeln. Pünktchen sträubt auf deiner Schulter das
+Gefieder und schuhut leise. Lily hält dir den Arm fest.
 „Probier den da", flüstert sie. „Der hat geleuchtet, als du reingekommen bist.
 Ehrlich. Ich hab's gesehen."
 Herr Ollivander tritt lautlos aus dem Schatten zwischen den Regalen.
 „Eschenholz, Einhornhaar, neunundzwanzig Zentimeter", sagt er und legt dir die
-Schachtel in die Hände. „Nun. Mal sehen, wer hier wen gewählt hat."
+Schachtel in die Hände. „Nun, Mara. Mal sehen, wer hier wen gewählt hat."
 
   Was tust du?
   › 1  Den Zauberstab vorsichtig heben und ihn schwingen
-    2  Erst Flocke beruhigen, bevor du irgendetwas anfasst
+    2  Erst Pünktchen beruhigen, bevor du irgendetwas anfasst
     3  Lily fragen, was sie genau gesehen hat
     4  (frei) etwas anderes sagen oder tun
 ```
