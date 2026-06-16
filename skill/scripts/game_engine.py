@@ -134,7 +134,90 @@ def _find_char(chars, character_id):
     return None
 
 
-def new_game(book_id, character_id):
+# ── Onboarding / Protagonist-Profil ──────────────────────────────────────────
+# Geschlecht ist frei wählbar; Pronomen werden daraus abgeleitet und der Erzählung
+# (SKILL.md) mitgegeben, damit die Spielfigur durchgehend richtig angesprochen wird.
+PRONOUNS = {
+    "weiblich": {"subjekt": "sie", "akkusativ": "sie", "dativ": "ihr",
+                 "possessiv": "ihre", "anrede": "Mädchen"},
+    "männlich": {"subjekt": "er", "akkusativ": "ihn", "dativ": "ihm",
+                 "possessiv": "sein", "anrede": "Junge"},
+    # neutral: keine gegenderten Pronomen — die Erzählung nutzt den Namen.
+    "divers":  {"subjekt": "", "akkusativ": "", "dativ": "",
+                "possessiv": "", "anrede": "Kind"},
+}
+
+
+def _normalize_gender(value):
+    """Mappt freie Eingaben auf weiblich | männlich | divers (Default: weiblich)."""
+    v = (value or "").strip().lower()
+    if v in ("m", "männlich", "maennlich", "junge", "male", "boy", "j"):
+        return "männlich"
+    if v in ("w", "f", "weiblich", "mädchen", "maedchen", "female", "girl"):
+        return "weiblich"
+    if v in ("d", "divers", "neutral", "keine", "nonbinary", "non-binary", "enby"):
+        return "divers"
+    return "weiblich"
+
+
+def _parse_profile_flags(rest):
+    """Liest optionale Onboarding-Flags aus den restlichen CLI-Argumenten.
+
+    Unterstützt: --name, --gender, --home/--hometown, --pet-name, --pet-kind.
+    Gibt ein Dict mit nur den gesetzten Schlüsseln zurück (None-Werte fallen raus).
+    """
+    aliases = {"--home": "--hometown"}
+    keys = {
+        "--name": "name", "--gender": "gender", "--hometown": "hometown",
+        "--pet-name": "pet_name", "--pet-kind": "pet_kind",
+    }
+    profile, i = {}, 0
+    while i < len(rest):
+        flag = aliases.get(rest[i], rest[i])
+        if flag in keys and i + 1 < len(rest):
+            profile[keys[flag]] = rest[i + 1]
+            i += 2
+        else:
+            i += 1
+    return profile
+
+
+def _apply_profile(save_data, char_data, profile):
+    """Wendet das Onboarding-Profil auf einen frischen Spielstand an.
+
+    Setzt Name/Geschlecht/Heimatort/Haustier, leitet Pronomen ab und benennt die
+    Begleiter-Beziehung um, falls das Haustier umgetauft wurde. Fehlende Felder
+    fallen auf die Vorgaben der Figur zurück (Robin / Flocke / kleines Dorf).
+    """
+    profile = profile or {}
+    default_pet = char_data.get("companion") or "Flocke"
+
+    name = (profile.get("name") or "").strip() or char_data["name"]
+    gender = _normalize_gender(profile.get("gender") or "weiblich")
+    hometown = (profile.get("hometown") or "").strip() or "ein kleines Dorf"
+    pet_name = (profile.get("pet_name") or "").strip() or default_pet
+    pet_kind = (profile.get("pet_kind") or "").strip() or "Malteser-Hündchen"
+
+    save_data["protagonist"] = {
+        "name": name,
+        "gender": gender,
+        "pronouns": dict(PRONOUNS[gender]),
+        "hometown": hometown,
+        "pet": {"name": pet_name, "kind": pet_kind},
+    }
+    save_data["character_name"] = name
+    save_data["companion"] = pet_name
+
+    # Haustier umgetauft → Begleiter-Beziehung mit umbenennen, Notiz aktualisieren.
+    rels = save_data.get("relationships", {})
+    if pet_name != default_pet and default_pet in rels:
+        rels[pet_name] = rels.pop(default_pet)
+    if pet_name in rels:
+        rels[pet_name]["note"] = f"dein treuer Begleiter ({pet_kind}), weicht dir nicht von der Seite"
+    return save_data
+
+
+def new_game(book_id, character_id, profile=None):
     """Erstellt ein neues Spiel.
 
     In der Hogwarts-Variante spielt man die EIGENE Protagonistin (z. B. der Char
@@ -204,13 +287,18 @@ def new_game(book_id, character_id):
             "note": note,
         }
 
+    # Onboarding-Profil anwenden (Name/Geschlecht/Heimatort/Haustier).
+    _apply_profile(save_data, char_data, profile)
+
     write_save(save_id, save_data)
 
     book_title = _book_title(book_id)
+    prot = save_data["protagonist"]
     print("Neues Spiel erstellt!")
     print(f"  Spielstand-ID: {save_id}")
     print(f"  Buch: {book_title}")
-    print(f"  Figur: {char_data['name']}")
+    print(f"  Figur: {prot['name']} ({prot['gender']}) aus {prot['hometown']}")
+    print(f"  Haustier: {prot['pet']['name']} ({prot['pet']['kind']})")
     print(f"  Startszene: {first_scene}")
     print(f"  Attribute: {json.dumps(save_data['stats'], ensure_ascii=False)}")
 
@@ -394,6 +482,11 @@ def load_game(save_id):
     print(f"Spielstand: {save['save_id']}")
     print(f"Buch: {book_title}")
     print(f"Figur: {save['character_name']}")
+    prot = save.get("protagonist")
+    if prot:
+        pron = prot.get("pronouns", {})
+        pron_str = f" · {pron['subjekt']}/{pron['possessiv']}" if pron.get("subjekt") else " · neutral (Name benutzen)"
+        print(f"Profil: {prot.get('gender')}{pron_str} · aus {prot.get('hometown')}")
     print(f"Kapitel/Abschnitt: {save['chapter_progress']}")
     print(f"Aktuelle Szene: {save['current_scene']}")
     print(f"Attribute: {json.dumps(save['stats'], ensure_ascii=False)}")
@@ -459,6 +552,44 @@ def set_house(save_id, house):
     print(f"✓ Haus gesetzt: {match}")
 
 
+def set_profile(save_id, profile):
+    """Ändert das Protagonist-Profil eines bestehenden Spielstands.
+
+    Nur gesetzte Felder werden überschrieben; der Rest bleibt. Praktisch, wenn die
+    Spielerin sich beim Onboarding vertippt oder später umbenennen möchte.
+    """
+    save = load_save(save_id)
+    prot = save.get("protagonist") or {}
+    default_pet = save.get("companion") or "Flocke"
+
+    if profile.get("name"):
+        save["character_name"] = profile["name"].strip()
+        prot["name"] = profile["name"].strip()
+    if profile.get("gender"):
+        g = _normalize_gender(profile["gender"])
+        prot["gender"] = g
+        prot["pronouns"] = dict(PRONOUNS[g])
+    if profile.get("hometown"):
+        prot["hometown"] = profile["hometown"].strip()
+    if profile.get("pet_name") or profile.get("pet_kind"):
+        pet = prot.get("pet") or {"name": default_pet, "kind": "Malteser-Hündchen"}
+        new_name = (profile.get("pet_name") or pet["name"]).strip()
+        new_kind = (profile.get("pet_kind") or pet["kind"]).strip()
+        rels = save.get("relationships", {})
+        if new_name != pet["name"] and pet["name"] in rels:
+            rels[new_name] = rels.pop(pet["name"])
+        if new_name in rels:
+            rels[new_name]["note"] = f"dein treuer Begleiter ({new_kind}), weicht dir nicht von der Seite"
+        pet["name"], pet["kind"] = new_name, new_kind
+        prot["pet"] = pet
+        save["companion"] = new_name
+
+    save["protagonist"] = prot
+    write_save(save_id, save)
+    print(f"✓ Profil aktualisiert: {prot.get('name')} ({prot.get('gender')}) aus "
+          f"{prot.get('hometown')} · Haustier {prot['pet']['name']} ({prot['pet']['kind']})")
+
+
 def list_saves():
     """Listet alle Spielstände."""
     ensure_dirs()
@@ -503,7 +634,8 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Aufruf: game_engine.py <befehl> [args]")
         print("Befehle:")
-        print("  new-game <book-id> <character-id>                         Neues Spiel")
+        print("  new-game <book-id> <character-id> [--name N --gender g --home O --pet-name P --pet-kind K]  Neues Spiel (mit Onboarding)")
+        print("  set-profile <save-id> [--name N --gender g --home O --pet-name P --pet-kind K]  Profil nachträglich ändern")
         print("  advance <save-id> <scene-id> <choice-index> [choice-desc]  Fortschritt (Beat)")
         print("  move <save-id> <ort>                                      Sandkasten-Bewegung (Whitelist)")
         print("  load <save-id>                                            Spielstand laden")
@@ -514,9 +646,16 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "new-game":
         if len(sys.argv) < 4:
-            print("Aufruf: game_engine.py new-game <book-id> <character-id>")
+            print("Aufruf: game_engine.py new-game <book-id> <character-id> "
+                  "[--name N --gender g --home O --pet-name P --pet-kind K]")
             sys.exit(1)
-        new_game(sys.argv[2], sys.argv[3])
+        new_game(sys.argv[2], sys.argv[3], _parse_profile_flags(sys.argv[4:]))
+    elif cmd == "set-profile":
+        if len(sys.argv) < 3:
+            print("Aufruf: game_engine.py set-profile <save-id> "
+                  "[--name N --gender g --home O --pet-name P --pet-kind K]")
+            sys.exit(1)
+        set_profile(sys.argv[2], _parse_profile_flags(sys.argv[3:]))
     elif cmd == "advance":
         if len(sys.argv) < 5:
             print("Aufruf: game_engine.py advance <save-id> <scene-id> <choice-index> [choice-desc]")

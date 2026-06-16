@@ -21,10 +21,11 @@ German content, seven full school years, built-in child-safety layer. Built on t
 
 ---
 
-Du spielst nicht Harry. Du spielst **Robin** — ein elfjähriges, muggelstämmiges Mädchen,
-die Erste ihrer Familie auf einer Zauberschule. Es beginnt zu Hause, mit einem Brief, einem
-Abschied und einer ersten Reise durch die **Winkelgasse** an der Seite deiner Freundin **Lily**
-und deines Malteser-Hündchens **Flocke**. An Gleis 9¾ übernimmt der Kanon — und von da an
+Du spielst nicht Harry. Du spielst **deine eigene Figur** — beim Start wählst du
+**Name, Geschlecht, Heimatort und Haustier** (oder nimmst die Vorgabe: *Robin*, ein
+elfjähriges, muggelstämmiges Kind mit dem Malteser *Flocke*). Es beginnt zu Hause, mit einem
+Brief, einem Abschied und einer ersten Reise durch die **Winkelgasse** an der Seite deiner
+Freundin **Lily** und deines Haustiers. An Gleis 9¾ übernimmt der Kanon — und von da an
 erlebst du **sieben komplette Schuljahre** als eine zusammenhängende Geschichte, in der Harry,
 Ron, Hermine & Co. die Nebenfiguren in *deiner* Geschichte sind.
 
@@ -64,6 +65,9 @@ und führt dich (sanft) zurück auf den roten Faden, wenn du zu weit abdriftest.
 
 ## 🧭 Was es besonders macht
 
+- 🧙 **Deine eigene Figur** — ein kurzes, warmes Onboarding zu Beginn: Name, Geschlecht
+  (mit passenden Pronomen), Heimatort und Haustier. Alles optional — wer mag, nimmt die
+  Vorgabe und legt sofort los.
 - 🛡️ **Kindersicher von Grund auf** — eine durchgehende Moderations- und Ton-Architektur,
   die **nicht durch Spielereingaben überschreibbar** ist. Das ist die eigentliche
   wiederverwendbare Zutat dieses Projekts.
