@@ -1,7 +1,27 @@
 ---
 name: hogwarts-rpg
-description: Altersgerechtes (~12), story-getriebenes Hogwarts-Abenteuer. Die Spielerin erschafft zu Beginn ihre EIGENE Figur (Name, Geschlecht, Heimatort, Haustier) im selben Jahrgang wie Harry Potter, begegnet den Hauptfiguren und kann über mehrere Begegnungen Teil der Clique werden. Der kanonische Plot von „Stein der Weisen" ist der rote Faden im Hintergrund. Triggerwörter: hogwarts, zauberschule, abenteuer starten, weiterspielen.
+description: 'Altersgerechtes (~12), story-getriebenes Hogwarts-Abenteuer. Die Spielerin erschafft zu Beginn ihre EIGENE Figur (Name, Geschlecht, Heimatort, Haustier) im selben Jahrgang wie Harry Potter, begegnet den Hauptfiguren und kann über mehrere Begegnungen Teil der Clique werden. Der kanonische Plot von „Stein der Weisen" ist der rote Faden im Hintergrund. Triggerwörter: hogwarts, zauberschule, abenteuer starten, weiterspielen.'
 version: 1.1.0
+homepage: https://github.com/siegelmaik-sketch/novel-rpg-hogwarts
+emoji: "🏰"
+metadata:
+  openclaw:
+    requires:
+      bins:
+        - python3
+    envVars:
+      - name: MODERATION_MODE
+        required: false
+        description: Moderations-Backend — openclaw (Default) | openai | local.
+      - name: OPENAI_MOD_KEY
+        required: false
+        description: API-Key für OpenAI /moderations (nur bei MODERATION_MODE=openai).
+      - name: OPENCLAW_MOD_MODEL
+        required: false
+        description: Modell für das openclaw-Moderations-Backend (Default openai/gpt-5.5).
+      - name: HOGWARTS_STATE_DIR
+        required: false
+        description: Ablage für Spielstände/Welt-Memory/Incident-Log (Default ~/.openclaw/hogwarts-state).
 ---
 
 # Hogwarts-Abenteuer — altersgerechte Erzähl-Engine (~12)

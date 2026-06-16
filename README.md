@@ -2,9 +2,9 @@
 
 # 🏰 Hogwarts RPG
 
-### Ein altersgerechtes, story-getriebenes Zauberschul-Abenteuer (~12 Jahre) als Skill für Claude Code / OpenClaw
+### Ein altersgerechtes, story-getriebenes Zauberschul-Abenteuer (~12 Jahre) als OpenClaw-Skill
 
-*A story-driven, age-appropriate (~12) Hogwarts adventure as a skill for Claude Code / OpenClaw.
+*A story-driven, age-appropriate (~12) Hogwarts adventure as a skill for [OpenClaw](https://github.com/openclaw/openclaw) — the self-hosted AI agent.
 German content, seven full school years, built-in child-safety layer. Built on the
 [`novel-rpg`](https://github.com/kiki123124/novel-rpg) engine.*
 
@@ -12,7 +12,7 @@ German content, seven full school years, built-in child-safety layer. Built on t
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab.svg?logo=python&logoColor=white)
 ![Sprache](https://img.shields.io/badge/Inhalt-Deutsch-informational.svg)
 ![Altersfreigabe](https://img.shields.io/badge/Alter-~12%20%C2%B7%20kindersicher-ff69b4.svg)
-![Skill](https://img.shields.io/badge/Claude%20Code%20%2F%20OpenClaw-Skill-7c3aed.svg)
+![Skill](https://img.shields.io/badge/OpenClaw-Skill-7c3aed.svg)
 ![Fan-Projekt](https://img.shields.io/badge/Fan--Projekt-nicht%20kommerziell-lightgrey.svg)
 
 **7 Schuljahre · 857 Szenen · 397 Bindungsmomente · 38 Figuren — eine durchgehende Saga, ein Spielstand.**
@@ -99,7 +99,7 @@ und führt dich (sanft) zurück auf den roten Faden, wenn du zu weit abdriftest.
 - 🧠 **Persistentes Welt-Gedächtnis** — das Spiel merkt sich, was *du* erfindest, und webt es
   später wieder ein.
 - 🎭 **Du bist die Heldin** — Harry & Co. sind Nebenfiguren in deiner Geschichte, nicht umgekehrt.
-- 🤖 **Läuft als Skill** in Claude Code / OpenClaw — plus optionale **Telegram-Anbindung**
+- 🤖 **Läuft als OpenClaw-Skill** — self-hosted, plus optionale **Telegram-Anbindung**
   (`frontend/telegram_bridge.py`).
 
 ---
