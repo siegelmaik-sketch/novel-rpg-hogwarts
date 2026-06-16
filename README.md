@@ -147,9 +147,10 @@ cat ~/.openclaw/hogwarts-state/moderation_log/*.jsonl     # Moderations-Vorfäll
 ```bash
 python3 -m pytest tests/ -q
 ```
-Abgedeckt: Divergenz-Cap, Kreuzungen/Clique-Regel, autonome Spur, Sandkasten-Whitelist,
-Moderation (inkl. Fail-Closed), Welt-Memory (Capture/Moderation-Reject/Relevanz/
-Summarization/Eltern-CLI).
+Abgedeckt: Onboarding/Figur-Profil (Name/Geschlecht/Pronomen/Heimatort/Haustier inkl.
+Begleiter-Umbenennung), Divergenz-Cap, Kreuzungen/Clique-Regel, autonome Spur,
+Sandkasten-Whitelist, Moderation (inkl. Fail-Closed), Welt-Memory (Capture/
+Moderation-Reject/Relevanz/Summarization/Eltern-CLI).
 
 ## ⚖️ Lizenz & Disclaimer
 
