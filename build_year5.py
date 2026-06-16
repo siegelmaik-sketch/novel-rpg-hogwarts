@@ -31,7 +31,7 @@ def A(id_,ch,title,st,present,loc,summ,choices,cp=False,recap=None,plot="kanon")
 P="player_heroine"
 backbone=[
  A("y5_s01",25,"Ein unheimlicher Sommer","Sommerferien — zuhause",
-   [P,"marlen","maik","flocke"],"haus_sosa",
+   [P,"marlen","maik","flocke"],"haus_familie",
    "Die Zaubererwelt will nicht wahrhaben, dass die Finsternis zurueck ist — und so liegt ueber den Ferien eine wachsame Anspannung. Doch in deiner Familie ist es warm und sicher, und Flocke weicht dir nicht von der Seite.",
    [C("Dich bei Mama und Papa geborgen fuehlen",stats={"loyalty":5},rels={"Mama":4,"Papa":4}),
     C("Aufmerksam und mutig bleiben, falls etwas kommt",stats={"combat":4}),

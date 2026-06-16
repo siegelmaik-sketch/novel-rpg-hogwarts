@@ -42,7 +42,7 @@ P = "player_heroine"
 # ── Kanon-Rückgrat Jahr 2 (kindgerecht) ──────────────────────────────────────
 backbone = [
  anchor("y2_s01",7,"Sommer zu Hause & ein seltsamer Besuch","Sommerferien — zuhause zu Hause",
-   [P,"marlen","maik","dobby"],"haus_sosa",
+   [P,"marlen","maik","dobby"],"haus_familie",
    "Mitten in den Ferien plumpst mit einem Plopp ein winziges Wesen mit Fledermausohren in Robins Zimmer: der Hauself Dobby. Hände ringend warnt er dramatisch, Robin solle dieses Jahr „ganz besonders vorsichtig“ in Hogwarts sein — und ist schon wieder verschwunden. Mama und Papa staunen Bauklötze.",
    [C("Mama und Papa beruhigen, dass alles gut wird",stats={"loyalty":5},rels={"Mama":4,"Papa":4}),
     C("Neugierig rätseln, was der kleine Elf wohl meinte",stats={"wisdom":5}),

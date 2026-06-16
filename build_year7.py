@@ -32,7 +32,7 @@ def A(id_,ch,title,st,present,loc,summ,choices,cp=False,recap=None,plot="kanon")
 P="player_heroine"
 backbone=[
  A("y7_s01",37,"Ein duesterer Sommer","Sommerferien — zuhause",
-   [P,"marlen","maik","flocke"],"haus_sosa",
+   [P,"marlen","maik","flocke"],"haus_familie",
    "Ueber der Zaubererwelt liegt ein langer Schatten, und von Harry, Ron und Hermine fehlt jede Spur — sie sind heimlich unterwegs, um die Finsternis zu bekaempfen. Bei dir zu Hause ist es warm und sicher, doch alle spueren: Dieses Jahr wird alles entscheiden. Du nimmst dir vor, tapfer zu sein.",
    [C("Bei Mama und Papa Kraft und Geborgenheit tanken",stats={"loyalty":5},rels={"Mama":4,"Papa":4}),
     C("Dir fest vornehmen, mutig zu bleiben, was auch kommt",stats={"combat":4}),

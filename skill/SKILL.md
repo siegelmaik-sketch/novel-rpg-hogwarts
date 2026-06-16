@@ -1,7 +1,7 @@
 ---
 name: hogwarts-rpg
 description: 'Altersgerechtes (~12), story-getriebenes Hogwarts-Abenteuer. Die Spielerin erschafft zu Beginn ihre EIGENE Figur (Name, Geschlecht, Heimatort, Haustier) im selben Jahrgang wie Harry Potter, begegnet den Hauptfiguren und kann über mehrere Begegnungen Teil der Clique werden. Der kanonische Plot von „Stein der Weisen" ist der rote Faden im Hintergrund. Triggerwörter: hogwarts, zauberschule, abenteuer starten, weiterspielen.'
-version: 1.1.0
+version: 1.1.1
 homepage: https://github.com/siegelmaik-sketch/novel-rpg-hogwarts
 emoji: "🏰"
 metadata:

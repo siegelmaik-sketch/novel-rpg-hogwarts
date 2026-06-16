@@ -41,7 +41,7 @@ def A(id_, ch, title, st, present, loc, summ, choices, cp=False, recap=None, plo
 P = "player_heroine"
 backbone = [
  A("y3_s01",13,"Ein grosser schwarzer Hund","Sommerferien — zuhause",
-   [P,"marlen","maik","flocke"],"haus_sosa",
+   [P,"marlen","maik","flocke"],"haus_familie",
    "In den Ferien taucht abends am Gartenzaun ein riesiger, zotteliger schwarzer Hund auf und schaut dich mit klugen Augen an — dann ist er weg. Flocke wedelt freundlich, also kann er nicht boese sein. Mama und Papa schmunzeln ueber den 'Riesenhund'.",
    [C("Dem Hund vorsichtig zuwinken",stats={"loyalty":4},rels={"Flocke":3}),
     C("Mama und Papa von dem Tier erzaehlen",rels={"Mama":3,"Papa":3}),

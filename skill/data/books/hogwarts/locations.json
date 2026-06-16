@@ -3,14 +3,14 @@
   "setting": "Internat für junge Hexen und Zauberer (Schloss Hogwarts), altersgerechter Ton (~12, Niveau der HP-Buecher/Filme), spannend aber sicher",
   "locations": [
     {
-      "id": "haus_sosa",
+      "id": "haus_familie",
       "name": "Haus deiner Familie",
       "arc": "prolog",
       "access": "immer",
       "context": "Robins Zuhause in einem kleinen Dorf: warme Küche, Blick auf den Wald, Mama und Papa in der Nähe. Der sichere Hafen, an den sie in Gedanken zurückkehrt."
     },
     {
-      "id": "sosaer_strasse",
+      "id": "dorfstrasse",
       "name": "Dorfstraße",
       "arc": "prolog",
       "access": "immer",
